@@ -34,6 +34,7 @@ TEX_SESSION_ID  = os.environ.get("TEX_SESSION_ID", "appworld-demos")
 
 # --- HydraDB memory backend ---
 HYDRADB_API_KEY   = os.environ.get("HYDRADB_API_KEY")
+HYDRADB_BASE_URL  = os.environ.get("HYDRADB_BASE_URL", "https://api.hydradb.com")
 HYDRADB_TENANT_ID = os.environ.get("HYDRADB_TENANT_ID", "appworld-demos")
 
 # --- Observation handling ---

@@ -3,6 +3,8 @@ openai
 anthropic
 python-dotenv
 numpy
+httpx
 tex-sdk
-hydradb-sdk
 pytest
+# NOTE: HydraDB is called via raw httpx (arena/memory_hydra.py), NOT hydradb-sdk.
+# The SDK pins pydantic v2, which breaks AppWorld (pydantic v1). Do not add it back.
