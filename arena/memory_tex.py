@@ -62,8 +62,14 @@ class TexMemoryStore(MemoryStore):
         # One remember() call per demo (a single giant batch hangs the Tex API).
         # Fire them concurrently — each call is independent and rate limits are ample.
         from concurrent.futures import ThreadPoolExecutor
+        from arena import config
         demos = list(demos)
         if not demos:
+            return
+        if getattr(config, "TEX_SKIP_INGEST", False):
+            # Server-side index already populated; just rebuild local bodies for lookup.
+            for d in demos:
+                self._by_key[d.task_id] = d
             return
         with ThreadPoolExecutor(max_workers=max_workers) as ex:
             list(ex.map(self.add, demos))

@@ -45,6 +45,7 @@ TEX_BASE_URL    = os.environ.get("TEX_BASE_URL")
 TEX_ORG_ID      = os.environ.get("TEX_ORG_ID")
 TEX_USER_ID     = os.environ.get("TEX_USER_ID")
 TEX_SESSION_ID  = os.environ.get("TEX_SESSION_ID", "appworld-demos")
+TEX_SKIP_INGEST = os.environ.get("TEX_SKIP_INGEST", "0") not in ("0", "false", "False", "")
 
 # --- HydraDB memory backend ---
 HYDRADB_API_KEY   = os.environ.get("HYDRADB_API_KEY")
