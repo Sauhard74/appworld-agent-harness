@@ -15,7 +15,9 @@ MODEL      = os.environ.get("MODEL", "llama-3.3-70b-versatile")  # graded: Groq 
 MAX_OUTPUT_TOKENS = int(os.environ.get("MAX_OUTPUT_TOKENS", "4000"))
 TEMPERATURE = float(os.environ.get("TEMPERATURE", "0.0"))
 
-# Groq (chat path)
+# Chat-path providers (OpenAI-compatible). OpenRouter is preferred when set, else Groq.
+OPENROUTER_API_KEY  = os.environ.get("OPENROUTER_API_KEY")
+OPENROUTER_BASE_URL = os.environ.get("OPENROUTER_BASE_URL", "https://openrouter.ai/api/v1")
 GROQ_API_KEY  = os.environ.get("GROQ_API_KEY")
 GROQ_BASE_URL = os.environ.get("GROQ_BASE_URL", "https://api.groq.com/openai/v1")
 
@@ -27,7 +29,7 @@ EMBED_MODEL = os.environ.get("EMBED_MODEL", "text-embedding-3-large")
 DATASET    = os.environ.get("APPWORLD_DATASET", "dev")
 EXPERIMENT = os.environ.get("APPWORLD_EXPERIMENT", "team_demo")
 MAX_TASKS  = int(os.environ.get("MAX_TASKS", "0"))          # 0 = all
-MAX_TURNS  = int(os.environ.get("MAX_INTERACTIONS", "40"))
+MAX_TURNS  = int(os.environ.get("MAX_INTERACTIONS", "50"))
 # Cap how much history is RE-SENT each turn (turn-pairs after the initial msg).
 # Keeps token cost ~linear on long tasks; full trajectory is still kept internally.
 MAX_HISTORY_TURNS = int(os.environ.get("MAX_HISTORY_TURNS", "16"))

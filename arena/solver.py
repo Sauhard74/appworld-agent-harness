@@ -32,7 +32,9 @@ _VERIFY_PROMPT = (
     "2. If it's a question: is the answer NON-EMPTY and in the EXACT requested format "
     "(separators, spacing, count, order)? An empty/zero/None result almost always means "
     "a filter matched nothing — print the distinct values you filtered on and recheck.\n"
-    "3. Did you change ONLY what the task required (no stray writes to other apps/records)?\n"
+    "3. COMPLETENESS: re-fetch the relevant list across ALL pages (fetch_all) and confirm "
+    "you handled EVERY matching item, not just page one. Missing a single item fails.\n"
+    "4. Did you change ONLY what the task required (no stray writes to other apps/records)?\n"
     "If anything is wrong, FIX it and call apis.supervisor.complete_task(answer=...) again "
     "(it overwrites). If everything is correct, print exactly DONE_VERIFIED."
 )

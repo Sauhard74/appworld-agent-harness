@@ -16,7 +16,19 @@ HOW THE WORLD WORKS:
     print(apis.api_docs.show_api_doc(app_name='<app>', api_name='<api>'))
 - Get credentials and log in to obtain access_tokens:
     print(apis.supervisor.show_account_passwords())
-- Many list APIs are PAGINATED — loop pages until exhausted; don't assume one page.
+- Almost every list/show API is PAGINATED and returns only ONE page by default. NEVER
+  trust a single call for "all" of something. Define and reuse a helper to exhaust pages:
+    def fetch_all(api, **kw):
+        out, page = [], 0
+        while True:
+            r = api(**kw, page_index=page, page_limit=20)
+            if not r: break
+            out += r
+            if len(r) < 20: break
+            page += 1
+        return out
+  Use fetch_all for any "all / every / how many / list" task AND before deleting/updating
+  a set — otherwise you act on only the first page and silently miss the rest.
 - Watch datetimes/timezones, and match strings EXACTLY (names, notes, titles).
 
 DISCIPLINE THAT WINS:
@@ -25,7 +37,22 @@ DISCIPLINE THAT WINS:
 - INSPECT before you trust. Never assume a field's name or a value's spelling. Before
   filtering/aggregating on a field (e.g. genre, status, type), first print a sample
   record and the DISTINCT values you'll filter on, and confirm they exist. A filter
-  that silently matches zero rows is the #1 cause of wrong/empty answers.
+  that silently matches zero rows is the #1 cause of wrong/empty answers. Treat a field
+  as "empty" defensively: None, "", whitespace, and missing keys are all empty.
+- BE COMPLETE. Enumerate EVERY item/person/record the task refers to and handle each
+  one — across all pages. Multi-step tasks fail if you do most of the work but skip a
+  sub-action; "almost done" scores zero under the exact-state evaluator.
+- ACTIONS, NOT JUST READS. If the task says send / create / add / delete / update /
+  notify / pay / message, you must actually CALL the write API for EVERY target — then
+  re-read and confirm each record was created/changed. Reading or computing the right
+  thing but not performing (or under-performing) the write is the most common silent
+  miss. Decompose the task into its required writes and verify each one happened.
+- RESOLVE RELATIONSHIPS to the right PERSON. When the task names someone by relationship
+  (my wife/husband/partner/spouse/mom/dad/sibling/friend/roommate/manager/boss/...), do
+  NOT guess or pick an arbitrary contact. Look up who that specific person is first — via
+  the relationship/contacts APIs (e.g. show relationships / search contacts) or the
+  supervisor's profile — then target that exact person/account. Sending to, paying, or
+  messaging the wrong person fails the task even if everything else is correct.
 - Do NOT compute the answer and call complete_task in the SAME code block. First
   compute and print() your result plus the key intermediate counts; read that
   observation; only THEN, in a later turn, call complete_task.
