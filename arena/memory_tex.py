@@ -58,15 +58,15 @@ class TexMemoryStore(MemoryStore):
             turns=[{"role": "user", "text": self._turn_text(demo), "timestamp": _TS}],
         )
 
-    def add_many(self, demos):
+    def add_many(self, demos, max_workers=16):
+        # One remember() call per demo (a single giant batch hangs the Tex API).
+        # Fire them concurrently — each call is independent and rate limits are ample.
+        from concurrent.futures import ThreadPoolExecutor
         demos = list(demos)
         if not demos:
             return
-        turns = []
-        for demo in demos:
-            self._by_key[demo.task_id] = demo
-            turns.append({"role": "user", "text": self._turn_text(demo), "timestamp": _TS})
-        self.client.conversations.remember(session_id=self.session_id, turns=turns)
+        with ThreadPoolExecutor(max_workers=max_workers) as ex:
+            list(ex.map(self.add, demos))
 
     def recall(self, instruction, k, exclude_task_id=None):
         r = self.client.recall(q=instruction, session_id=self.session_id)

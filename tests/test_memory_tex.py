@@ -104,11 +104,14 @@ def test_recall_skips_unmatched_or_unparseable_turns():
     assert [d.task_id for d in out] == ["t1"]
 
 
-def test_add_many_batches_into_one_remember_call():
+def test_add_many_one_remember_call_per_demo():
+    # A single giant batch hangs the live Tex API, so add_many ingests each demo
+    # in its own remember() call (one turn each).
     fake = FakeTex([])
     store = TexMemoryStore(client=fake, session_id="s")
     store.add_many([Demo("t1", "a", "A"), Demo("t2", "b", "B")])
-    assert len(fake.remembered) == 1
-    assert len(fake.remembered[0]["turns"]) == 2
-    # task_id marker embedded in stored text
-    assert "[[t1]]" in fake.remembered[0]["turns"][0]["text"]
+    assert len(fake.remembered) == 2
+    assert all(len(call["turns"]) == 1 for call in fake.remembered)
+    # both task_id markers present (order is nondeterministic — calls run concurrently)
+    texts = "".join(call["turns"][0]["text"] for call in fake.remembered)
+    assert "[[t1]]" in texts and "[[t2]]" in texts
