@@ -1,5 +1,5 @@
 from arena import config
-from arena.utils import extract_code, truncate_obs
+from arena.utils import extract_code, truncate_obs, trim_messages
 from arena.prompt import SYSTEM_PROMPT, build_initial_messages
 from arena.llm import call_llm as _default_call_llm
 
@@ -40,7 +40,8 @@ def solve(env, demos, call_llm=None, max_turns=None, verify=None):
     phase = "solve"
     verify_left = _VERIFY_TURNS
     for turn in range(1, max_turns + 1):
-        reply = call_llm(messages, system=SYSTEM_PROMPT)
+        messages_to_send = trim_messages(messages, config.MAX_HISTORY_TURNS)
+        reply = call_llm(messages_to_send, system=SYSTEM_PROMPT)
         code = extract_code(reply)
         try:
             obs = str(env.execute(code))

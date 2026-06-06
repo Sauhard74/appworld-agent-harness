@@ -28,6 +28,9 @@ DATASET    = os.environ.get("APPWORLD_DATASET", "dev")
 EXPERIMENT = os.environ.get("APPWORLD_EXPERIMENT", "team_demo")
 MAX_TASKS  = int(os.environ.get("MAX_TASKS", "0"))          # 0 = all
 MAX_TURNS  = int(os.environ.get("MAX_INTERACTIONS", "40"))
+# Cap how much history is RE-SENT each turn (turn-pairs after the initial msg).
+# Keeps token cost ~linear on long tasks; full trajectory is still kept internally.
+MAX_HISTORY_TURNS = int(os.environ.get("MAX_HISTORY_TURNS", "16"))
 VERIFY     = os.environ.get("VERIFY", "1") not in ("0", "false", "False", "")
 
 # --- Retrieval / memory ---
