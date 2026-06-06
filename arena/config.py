@@ -7,10 +7,20 @@ try:
 except Exception:
     pass
 
-# --- LLM (OpenAI-compatible v1 endpoint, Responses API) ---
-MODEL      = os.environ.get("MODEL", "gpt-5.5")            # gpt-5.5 | gpt-5.3-codex | Kimi-K2.6 (verified)
-MAX_OUTPUT_TOKENS = int(os.environ.get("MAX_OUTPUT_TOKENS", "4000"))  # reasoning models need headroom
-OPENAI_BASE_URL = os.environ.get("OPENAI_BASE_URL")       # set in .env to the Azure v1 endpoint
+# --- LLM (graded brain) ---
+# LLM_API: "chat" = OpenAI-compatible chat/completions (Groq, the MANDATED graded model);
+#          "responses" = Azure Responses API (gpt-5.5 etc., for building/experiments only).
+LLM_API    = os.environ.get("LLM_API", "chat")
+MODEL      = os.environ.get("MODEL", "llama-3.3-70b-versatile")  # graded: Groq Llama 3.3 70B
+MAX_OUTPUT_TOKENS = int(os.environ.get("MAX_OUTPUT_TOKENS", "4000"))
+TEMPERATURE = float(os.environ.get("TEMPERATURE", "0.0"))
+
+# Groq (chat path)
+GROQ_API_KEY  = os.environ.get("GROQ_API_KEY")
+GROQ_BASE_URL = os.environ.get("GROQ_BASE_URL", "https://api.groq.com/openai/v1")
+
+# Azure (responses path + ALL embeddings — Groq has no embedding API)
+OPENAI_BASE_URL = os.environ.get("OPENAI_BASE_URL")
 EMBED_MODEL = os.environ.get("EMBED_MODEL", "text-embedding-3-large")
 
 # --- AppWorld run ---
@@ -22,6 +32,9 @@ MAX_TURNS  = int(os.environ.get("MAX_INTERACTIONS", "40"))
 # --- Retrieval / memory ---
 MEMORY_BACKEND = os.environ.get("MEMORY_BACKEND", "local")  # local | tex | hydra
 K_DEMOS    = int(os.environ.get("K_DEMOS", "2"))
+# Which gold splits seed the demo store. For an HONEST dev number use "train" only
+# (dev tasks then unseen, mirroring test). For the real test run, seed "train,dev".
+SEED_SPLITS = tuple(s for s in os.environ.get("SEED_SPLITS", "train,dev").split(",") if s)
 DATA_DIR   = os.environ.get("DATA_DIR", "data")
 CACHE_DIR  = os.environ.get("CACHE_DIR", ".cache")
 

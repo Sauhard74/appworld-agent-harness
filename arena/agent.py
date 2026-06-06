@@ -15,8 +15,8 @@ def main():
     task_ids = load_task_ids(config.DATASET)
     if config.MAX_TASKS:
         task_ids = task_ids[: config.MAX_TASKS]
-    print(f"Building demo store (seed=train+dev, backend={config.MEMORY_BACKEND})...")
-    store = build_seeded_store(backend=config.MEMORY_BACKEND)
+    print(f"Building demo store (seed={config.SEED_SPLITS}, backend={config.MEMORY_BACKEND})...")
+    store = build_seeded_store(seed_splits=config.SEED_SPLITS, backend=config.MEMORY_BACKEND)
     print(f"Running '{config.EXPERIMENT}' on {len(task_ids)} '{config.DATASET}' tasks with {config.MODEL}")
 
     completed = 0
