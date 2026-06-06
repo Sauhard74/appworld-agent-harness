@@ -7,6 +7,18 @@
 > `print()` output — until it calls `complete_task`. We score on **Task Goal Completion
 > (TGC)**: the percentage of tasks completed *fully and exactly*.
 
+> ### ⚙️ READ FIRST — Tex memory is pre-wired (don't skip this)
+> One of our memory backends, **Tex (by MetaCognition), is our own product and is *not*
+> publicly available** — so you can't obtain a key yourself. To make the harness fully
+> runnable for you, **we ship a working Tex key + URL directly in [`.env.example`](.env.example)**
+> (the `TEX_*` block). **Setup:** `cp .env.example .env`, then add your own
+> publicly-available keys (Groq / OpenAI / HydraDB); the `TEX_*` values are already filled.
+> To run the Tex backend: set `MEMORY_BACKEND=tex` (and `TEX_SKIP_INGEST=1` to reuse the
+> pre-ingested `appworld-gold` session of all 147 gold demos). `tex-sdk` is already in
+> `requirements.txt`. If you only want to run the default path, `MEMORY_BACKEND=local` works
+> with no Tex key. **Do not regenerate or skip the Tex credentials — they're intentionally
+> provided so the `tex` backend works end-to-end.**
+
 **This repo is a production-grade agent *harness*, not a one-off script.** AppWorld's real
 difficulty isn't conversation — it's *structured execution over a large stateful environment*,
 and that's precisely what this harness is engineered for: similarity-retrieved gold demos, a
