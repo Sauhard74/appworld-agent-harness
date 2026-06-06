@@ -20,7 +20,7 @@ MAX_TASKS  = int(os.environ.get("MAX_TASKS", "0"))          # 0 = all
 MAX_TURNS  = int(os.environ.get("MAX_INTERACTIONS", "40"))
 
 # --- Retrieval / memory ---
-MEMORY_BACKEND = os.environ.get("MEMORY_BACKEND", "local")  # local | tex
+MEMORY_BACKEND = os.environ.get("MEMORY_BACKEND", "local")  # local | tex | hydra
 K_DEMOS    = int(os.environ.get("K_DEMOS", "2"))
 DATA_DIR   = os.environ.get("DATA_DIR", "data")
 CACHE_DIR  = os.environ.get("CACHE_DIR", ".cache")
@@ -31,6 +31,10 @@ TEX_BASE_URL    = os.environ.get("TEX_BASE_URL")
 TEX_ORG_ID      = os.environ.get("TEX_ORG_ID")
 TEX_USER_ID     = os.environ.get("TEX_USER_ID")
 TEX_SESSION_ID  = os.environ.get("TEX_SESSION_ID", "appworld-demos")
+
+# --- HydraDB memory backend ---
+HYDRADB_API_KEY   = os.environ.get("HYDRADB_API_KEY")
+HYDRADB_TENANT_ID = os.environ.get("HYDRADB_TENANT_ID", "appworld-demos")
 
 # --- Observation handling ---
 OBS_HEAD = int(os.environ.get("OBS_HEAD", "2500"))

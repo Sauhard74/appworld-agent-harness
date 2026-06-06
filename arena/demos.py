@@ -24,11 +24,15 @@ def build_seeded_store(seed_splits=("train", "dev"), data_dir="data", embed_fn=N
 
     backend="local" -> LocalTrajectoryStore (cosine over embeddings)
     backend="tex"   -> TexMemoryStore (Tex semantic retriever, bodies kept locally)
+    backend="hydra" -> HydraMemoryStore (HydraDB semantic retriever, bodies kept locally)
     """
     from appworld import load_task_ids
     if backend == "tex":
         from arena.memory_tex import TexMemoryStore
         store = TexMemoryStore()
+    elif backend == "hydra":
+        from arena.memory_hydra import HydraMemoryStore
+        store = HydraMemoryStore()
     else:
         store = LocalTrajectoryStore(embed_fn=embed_fn)
     all_demos = []

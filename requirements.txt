@@ -4,4 +4,5 @@ anthropic
 python-dotenv
 numpy
 tex-sdk
+hydradb-sdk
 pytest
