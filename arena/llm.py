@@ -33,7 +33,12 @@ def _get_chat_client():
     global _chat_client
     if _chat_client is None:
         from openai import OpenAI
-        _chat_client = OpenAI(base_url=config.GROQ_BASE_URL, api_key=config.GROQ_API_KEY)
+        # Prefer OpenRouter when configured, else Groq (both OpenAI-compatible).
+        if config.OPENROUTER_API_KEY:
+            base, key = config.OPENROUTER_BASE_URL, config.OPENROUTER_API_KEY
+        else:
+            base, key = config.GROQ_BASE_URL, config.GROQ_API_KEY
+        _chat_client = OpenAI(base_url=base, api_key=key)
     return _chat_client
 
 
@@ -88,7 +93,7 @@ def _call_responses(messages, system, model, budget, retries):
     raise RuntimeError(f"LLM responses call failed after {retries} attempts: {last}")
 
 
-def call_llm(messages, system=None, model=None, max_output_tokens=None, retries=4):
+def call_llm(messages, system=None, model=None, max_output_tokens=None, retries=8):
     model = model or config.MODEL
     budget = max_output_tokens or config.MAX_OUTPUT_TOKENS
     if config.LLM_API == "responses":

@@ -22,12 +22,12 @@ with test(
 ```
 ----------
 AssertionError:
-{'gmail.Email', 'gmail.GlobalEmailThread', 'gmail.UserEmailThread'}
+{'gmail.UserEmailThread', 'gmail.Email', 'gmail.GlobalEmailThread'}
 ==
 {'gmail.Draft'}
 
 In left but not right:
-['gmail.Email', 'gmail.GlobalEmailThread', 'gmail.UserEmailThread']
+['gmail.UserEmailThread', 'gmail.Email', 'gmail.GlobalEmailThread']
 
 In right but not left:
 ['gmail.Draft']

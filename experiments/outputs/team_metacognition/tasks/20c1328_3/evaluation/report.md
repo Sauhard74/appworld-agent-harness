@@ -39,14 +39,14 @@ with test(
 AssertionError:
 set()
 ==
-{'gmail.Email', 'gmail.Attachment', 'amazon.Order', 'gmail.UserEmailThread',
-'amazon.Product', 'file_system.File', 'amazon.OrderItem',
-'gmail.GlobalEmailThread', 'file_system.Directory'}
+{'gmail.Email', 'gmail.GlobalEmailThread', 'gmail.UserEmailThread',
+'file_system.File', 'amazon.Product', 'file_system.Directory',
+'gmail.Attachment', 'amazon.OrderItem', 'amazon.Order'}
 
 In right but not left:
-['gmail.Email', 'gmail.Attachment', 'amazon.Order', 'gmail.UserEmailThread',
-'amazon.Product', 'file_system.File', 'amazon.OrderItem',
-'gmail.GlobalEmailThread', 'file_system.Directory']
+['gmail.Email', 'gmail.GlobalEmailThread', 'gmail.UserEmailThread',
+'file_system.File', 'amazon.Product', 'file_system.Directory',
+'gmail.Attachment', 'amazon.OrderItem', 'amazon.Order']
 >> Failed Requirement
 assert there is >= 1 added record in amazon.Order.
 ```python

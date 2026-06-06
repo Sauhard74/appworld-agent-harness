@@ -31,14 +31,14 @@ gmail.Email,
 AssertionError:
 set()
 ==
-{'gmail.Email', 'gmail.Attachment', 'amazon.Order', 'gmail.UserEmailThread',
-'amazon.Product', 'file_system.File', 'amazon.WishListEntry',
-'amazon.OrderItem', 'gmail.GlobalEmailThread', 'file_system.Directory'}
+{'gmail.Email', 'gmail.GlobalEmailThread', 'gmail.UserEmailThread',
+'file_system.File', 'amazon.WishListEntry', 'amazon.Product',
+'file_system.Directory', 'gmail.Attachment', 'amazon.OrderItem', 'amazon.Order'}
 
 In right but not left:
-['gmail.Email', 'gmail.Attachment', 'amazon.Order', 'gmail.UserEmailThread',
-'amazon.Product', 'file_system.File', 'amazon.WishListEntry',
-'amazon.OrderItem', 'gmail.GlobalEmailThread', 'file_system.Directory']
+['gmail.Email', 'gmail.GlobalEmailThread', 'gmail.UserEmailThread',
+'file_system.File', 'amazon.WishListEntry', 'amazon.Product',
+'file_system.Directory', 'gmail.Attachment', 'amazon.OrderItem', 'amazon.Order']
 >> Failed Requirement
 assert 1 record has been added to amazon.Order using models.changed_records.
 ```python

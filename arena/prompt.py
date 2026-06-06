@@ -42,6 +42,12 @@ DISCIPLINE THAT WINS:
 - BE COMPLETE. Enumerate EVERY item/person/record the task refers to and handle each
   one — across all pages. Multi-step tasks fail if you do most of the work but skip a
   sub-action; "almost done" scores zero under the exact-state evaluator.
+- EXACT SETS for bulk update/delete/disable. For "do X to ALL items matching a condition"
+  (disable all alarms that…, delete all drafts that…, mark all orders…): first build the
+  EXACT target id-set — fetch_all, apply the condition carefully, then print the id list
+  AND its count. Operate on EXACTLY that set: touching an item OUTSIDE it OR missing one
+  INSIDE it both fail the exact-state check. After acting, re-read and confirm precisely
+  that set (and nothing else) changed.
 - ACTIONS, NOT JUST READS. If the task says send / create / add / delete / update /
   notify / pay / message, you must actually CALL the write API for EVERY target — then
   re-read and confirm each record was created/changed. Reading or computing the right
