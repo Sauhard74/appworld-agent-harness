@@ -1,0 +1,26 @@
+{"method": "get", "url": "/api_docs/app_descriptions", "data": {}}
+{"method": "get", "url": "/api_docs/api_descriptions", "data": {"app_name": "gmail"}}
+{"method": "get", "url": "/supervisor/account_passwords", "data": {}}
+{"method": "get", "url": "/supervisor/account_passwords", "data": {}}
+{"method": "post", "url": "/gmail/auth/token", "data": {"email": "kat_simp@gmail.com", "password": "u%TW7ah"}}
+{"method": "get", "url": "/supervisor/account_passwords", "data": {}}
+{"method": "post", "url": "/gmail/auth/token", "data": {"username": "kat_simp@gmail.com", "password": "u%TW7ah"}}
+{"method": "get", "url": "/supervisor/account_passwords", "data": {}}
+{"method": "post", "url": "/gmail/auth/token", "data": {"username": "kat_simp@gmail.com", "password": "u%TW7ah"}}
+{"method": "get", "url": "/gmail/drafts", "data": {"access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJnbWFpbCtrYXRfc2ltcEBnbWFpbC5jb20iLCJleHAiOjE2ODQ0MTI3NDF9.n_9JwOyfuyRnREaAPFZrDn2NJHS9XBYvbB6AhwlwZcQ", "page_index": 0, "page_limit": 20}}
+{"method": "get", "url": "/supervisor/account_passwords", "data": {}}
+{"method": "post", "url": "/gmail/auth/token", "data": {"username": "kat_simp@gmail.com", "password": "u%TW7ah"}}
+{"method": "get", "url": "/gmail/drafts", "data": {"access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJnbWFpbCtrYXRfc2ltcEBnbWFpbC5jb20iLCJleHAiOjE2ODQ0MTI3MzF9.w7ceQP9y6b2h3LmWnNiPRZkpExMVczRCxSwuy69OXhk", "page_index": 0, "page_limit": 20}}
+{"method": "delete", "url": "/gmail/drafts/27", "data": {"access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJnbWFpbCtrYXRfc2ltcEBnbWFpbC5jb20iLCJleHAiOjE2ODQ0MTI3MzF9.w7ceQP9y6b2h3LmWnNiPRZkpExMVczRCxSwuy69OXhk"}}
+{"method": "delete", "url": "/gmail/drafts/85", "data": {"access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJnbWFpbCtrYXRfc2ltcEBnbWFpbC5jb20iLCJleHAiOjE2ODQ0MTI3MzF9.w7ceQP9y6b2h3LmWnNiPRZkpExMVczRCxSwuy69OXhk"}}
+{"method": "delete", "url": "/gmail/drafts/209", "data": {"access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJnbWFpbCtrYXRfc2ltcEBnbWFpbC5jb20iLCJleHAiOjE2ODQ0MTI3MzF9.w7ceQP9y6b2h3LmWnNiPRZkpExMVczRCxSwuy69OXhk"}}
+{"method": "delete", "url": "/gmail/drafts/84", "data": {"access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJnbWFpbCtrYXRfc2ltcEBnbWFpbC5jb20iLCJleHAiOjE2ODQ0MTI3MzF9.w7ceQP9y6b2h3LmWnNiPRZkpExMVczRCxSwuy69OXhk"}}
+{"method": "delete", "url": "/gmail/drafts/24", "data": {"access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJnbWFpbCtrYXRfc2ltcEBnbWFpbC5jb20iLCJleHAiOjE2ODQ0MTI3MzF9.w7ceQP9y6b2h3LmWnNiPRZkpExMVczRCxSwuy69OXhk"}}
+{"method": "delete", "url": "/gmail/drafts/476", "data": {"access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJnbWFpbCtrYXRfc2ltcEBnbWFpbC5jb20iLCJleHAiOjE2ODQ0MTI3MzF9.w7ceQP9y6b2h3LmWnNiPRZkpExMVczRCxSwuy69OXhk"}}
+{"method": "delete", "url": "/gmail/drafts/52", "data": {"access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJnbWFpbCtrYXRfc2ltcEBnbWFpbC5jb20iLCJleHAiOjE2ODQ0MTI3MzF9.w7ceQP9y6b2h3LmWnNiPRZkpExMVczRCxSwuy69OXhk"}}
+{"method": "delete", "url": "/gmail/drafts/293", "data": {"access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJnbWFpbCtrYXRfc2ltcEBnbWFpbC5jb20iLCJleHAiOjE2ODQ0MTI3MzF9.w7ceQP9y6b2h3LmWnNiPRZkpExMVczRCxSwuy69OXhk"}}
+{"method": "get", "url": "/gmail/drafts", "data": {"access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJnbWFpbCtrYXRfc2ltcEBnbWFpbC5jb20iLCJleHAiOjE2ODQ0MTI3MzF9.w7ceQP9y6b2h3LmWnNiPRZkpExMVczRCxSwuy69OXhk", "page_index": 0, "page_limit": 20}}
+{"method": "post", "url": "/supervisor/message", "data": {"answer": null, "status": "success"}}
+{"method": "get", "url": "/supervisor/account_passwords", "data": {}}
+{"method": "post", "url": "/gmail/auth/token", "data": {"username": "kat_simp@gmail.com", "password": "u%TW7ah"}}
+{"method": "get", "url": "/gmail/drafts", "data": {"access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJnbWFpbCtrYXRfc2ltcEBnbWFpbC5jb20iLCJleHAiOjE2ODQ0MTIxNTd9.bZQjIORkHF9Ay6Jl-Uk_xl78Ka0vheyz7dPD7m88kyw", "page_index": 0, "page_limit": 20}}

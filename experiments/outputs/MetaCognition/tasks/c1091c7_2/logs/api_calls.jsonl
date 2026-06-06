@@ -1,0 +1,51 @@
+{"method": "get", "url": "/api_docs/app_descriptions", "data": {}}
+{"method": "get", "url": "/api_docs/api_descriptions", "data": {"app_name": "gmail"}}
+{"method": "get", "url": "/gmail/email_threads/category/inbox", "data": {}}
+{"method": "get", "url": "/supervisor/account_passwords", "data": {}}
+{"method": "post", "url": "/gmail/auth/token", "data": {"username": "ce-maldonado@gmail.com", "password": "5klQTSt"}}
+{"method": "get", "url": "/gmail/email_threads/category/inbox", "data": {"access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJnbWFpbCtjZS1tYWxkb25hZG9AZ21haWwuY29tIiwiZXhwIjoxNjg0NzQ3MDQ0fQ.dwB7RsBobt7I9Ab8-Tfheln6aSaKuhyoLZ8iAuwiJW4"}}
+{"method": "get", "url": "/gmail/email_threads/category/inbox", "data": {"access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJnbWFpbCtjZS1tYWxkb25hZG9AZ21haWwuY29tIiwiZXhwIjoxNjg0NzQ3MDQ0fQ.dwB7RsBobt7I9Ab8-Tfheln6aSaKuhyoLZ8iAuwiJW4"}}
+{"method": "get", "url": "/gmail/email_threads/category/inbox", "data": {"access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJnbWFpbCtjZS1tYWxkb25hZG9AZ21haWwuY29tIiwiZXhwIjoxNjg0NzQ3MDQ0fQ.dwB7RsBobt7I9Ab8-Tfheln6aSaKuhyoLZ8iAuwiJW4"}}
+{"method": "get", "url": "/gmail/email_threads/category/inbox", "data": {"access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJnbWFpbCtjZS1tYWxkb25hZG9AZ21haWwuY29tIiwiZXhwIjoxNjg0NzQ3MDQ0fQ.dwB7RsBobt7I9Ab8-Tfheln6aSaKuhyoLZ8iAuwiJW4"}}
+{"method": "get", "url": "/gmail/email_threads/category/inbox", "data": {"access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJnbWFpbCtjZS1tYWxkb25hZG9AZ21haWwuY29tIiwiZXhwIjoxNjg0NzQ3MDQ0fQ.dwB7RsBobt7I9Ab8-Tfheln6aSaKuhyoLZ8iAuwiJW4"}}
+{"method": "post", "url": "/phone/auth/token", "data": {"username": "ce-maldonado@gmail.com", "password": "-R0_%58"}}
+{"method": "get", "url": "/gmail/email_threads/category/inbox", "data": {"access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJnbWFpbCtjZS1tYWxkb25hZG9AZ21haWwuY29tIiwiZXhwIjoxNjg0NzQ3MDQ0fQ.dwB7RsBobt7I9Ab8-Tfheln6aSaKuhyoLZ8iAuwiJW4"}}
+{"method": "post", "url": "/phone/auth/token", "data": {"username": "ce-maldonado@gmail.com", "password": "3947324235"}}
+{"method": "get", "url": "/gmail/email_threads/category/inbox", "data": {"access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJnbWFpbCtjZS1tYWxkb25hZG9AZ21haWwuY29tIiwiZXhwIjoxNjg0NzQ3MDQ0fQ.dwB7RsBobt7I9Ab8-Tfheln6aSaKuhyoLZ8iAuwiJW4"}}
+{"method": "post", "url": "/phone/auth/token", "data": {"username": "ce-maldonado@gmail.com", "password": "-R0_%58"}}
+{"method": "get", "url": "/gmail/email_threads/category/inbox", "data": {"access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJnbWFpbCtjZS1tYWxkb25hZG9AZ21haWwuY29tIiwiZXhwIjoxNjg0NzQ3MDQ0fQ.dwB7RsBobt7I9Ab8-Tfheln6aSaKuhyoLZ8iAuwiJW4"}}
+{"method": "get", "url": "/supervisor/account_passwords", "data": {}}
+{"method": "get", "url": "/phone/alarms", "data": {"access_token": "-R0_%58"}}
+{"method": "get", "url": "/gmail/email_threads/category/inbox", "data": {"access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJnbWFpbCtjZS1tYWxkb25hZG9AZ21haWwuY29tIiwiZXhwIjoxNjg0NzQ3MDQ0fQ.dwB7RsBobt7I9Ab8-Tfheln6aSaKuhyoLZ8iAuwiJW4"}}
+{"method": "post", "url": "/phone/auth/token", "data": {"username": "ce-maldonado@gmail.com", "password": "-R0_%58"}}
+{"method": "get", "url": "/gmail/email_threads/category/inbox", "data": {"access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJnbWFpbCtjZS1tYWxkb25hZG9AZ21haWwuY29tIiwiZXhwIjoxNjg0NzQ3MDQ0fQ.dwB7RsBobt7I9Ab8-Tfheln6aSaKuhyoLZ8iAuwiJW4"}}
+{"method": "get", "url": "/supervisor/account_passwords", "data": {}}
+{"method": "get", "url": "/phone/alarms", "data": {"password": "-R0_%58"}}
+{"method": "get", "url": "/gmail/email_threads/category/inbox", "data": {"access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJnbWFpbCtjZS1tYWxkb25hZG9AZ21haWwuY29tIiwiZXhwIjoxNjg0NzQ3MDQ0fQ.dwB7RsBobt7I9Ab8-Tfheln6aSaKuhyoLZ8iAuwiJW4"}}
+{"method": "get", "url": "/supervisor/account_passwords", "data": {}}
+{"method": "get", "url": "/gmail/email_threads/category/inbox", "data": {"access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJnbWFpbCtjZS1tYWxkb25hZG9AZ21haWwuY29tIiwiZXhwIjoxNjg0NzQ3MDQ0fQ.dwB7RsBobt7I9Ab8-Tfheln6aSaKuhyoLZ8iAuwiJW4"}}
+{"method": "get", "url": "/supervisor/account_passwords", "data": {}}
+{"method": "get", "url": "/phone/alarms", "data": {"access_token": "-R0_%58"}}
+{"method": "get", "url": "/gmail/email_threads/category/inbox", "data": {"access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJnbWFpbCtjZS1tYWxkb25hZG9AZ21haWwuY29tIiwiZXhwIjoxNjg0NzQ3MDQ0fQ.dwB7RsBobt7I9Ab8-Tfheln6aSaKuhyoLZ8iAuwiJW4"}}
+{"method": "get", "url": "/phone/alarms", "data": {"access_token": "3947324235"}}
+{"method": "get", "url": "/gmail/email_threads/category/inbox", "data": {"access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJnbWFpbCtjZS1tYWxkb25hZG9AZ21haWwuY29tIiwiZXhwIjoxNjg0NzQ3MDQ0fQ.dwB7RsBobt7I9Ab8-Tfheln6aSaKuhyoLZ8iAuwiJW4"}}
+{"method": "get", "url": "/phone/alarms", "data": {"access_token": "-R0_%58"}}
+{"method": "get", "url": "/gmail/email_threads/category/inbox", "data": {"access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJnbWFpbCtjZS1tYWxkb25hZG9AZ21haWwuY29tIiwiZXhwIjoxNjg0NzQ3MDQ0fQ.dwB7RsBobt7I9Ab8-Tfheln6aSaKuhyoLZ8iAuwiJW4"}}
+{"method": "get", "url": "/phone/alarms", "data": {"password": "-R0_%58"}}
+{"method": "get", "url": "/gmail/email_threads/category/inbox", "data": {"access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJnbWFpbCtjZS1tYWxkb25hZG9AZ21haWwuY29tIiwiZXhwIjoxNjg0NzQ3MDQ0fQ.dwB7RsBobt7I9Ab8-Tfheln6aSaKuhyoLZ8iAuwiJW4"}}
+{"method": "get", "url": "/phone/alarms", "data": {"password": "3947324235"}}
+{"method": "get", "url": "/gmail/email_threads/category/inbox", "data": {"access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJnbWFpbCtjZS1tYWxkb25hZG9AZ21haWwuY29tIiwiZXhwIjoxNjg0NzQ3MDQ0fQ.dwB7RsBobt7I9Ab8-Tfheln6aSaKuhyoLZ8iAuwiJW4"}}
+{"method": "get", "url": "/gmail/email_threads/category/inbox", "data": {"access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJnbWFpbCtjZS1tYWxkb25hZG9AZ21haWwuY29tIiwiZXhwIjoxNjg0NzQ3MDQ0fQ.dwB7RsBobt7I9Ab8-Tfheln6aSaKuhyoLZ8iAuwiJW4"}}
+{"method": "get", "url": "/api_docs/api_descriptions", "data": {"app_name": "phone"}}
+{"method": "get", "url": "/gmail/email_threads/category/inbox", "data": {"access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJnbWFpbCtjZS1tYWxkb25hZG9AZ21haWwuY29tIiwiZXhwIjoxNjg0NzQ3MDQ0fQ.dwB7RsBobt7I9Ab8-Tfheln6aSaKuhyoLZ8iAuwiJW4"}}
+{"method": "post", "url": "/phone/auth/token", "data": {"username": "ce-maldonado@gmail.com", "password": "-R0_%58"}}
+{"method": "get", "url": "/gmail/email_threads/category/inbox", "data": {"access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJnbWFpbCtjZS1tYWxkb25hZG9AZ21haWwuY29tIiwiZXhwIjoxNjg0NzQ3MDQ0fQ.dwB7RsBobt7I9Ab8-Tfheln6aSaKuhyoLZ8iAuwiJW4"}}
+{"method": "post", "url": "/phone/auth/token", "data": {"username": "3947324235", "password": "-R0_%58"}}
+{"method": "get", "url": "/phone/alarms", "data": {"access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJwaG9uZSszOTQ3MzI0MjM1IiwiZXhwIjoxNjg0NzQ3Njg3fQ.BwnsTn1oB1BXvanrApsAyPClg6B-Fsjh-27HlSthTHo"}}
+{"method": "get", "url": "/gmail/email_threads/category/inbox", "data": {"access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJnbWFpbCtjZS1tYWxkb25hZG9AZ21haWwuY29tIiwiZXhwIjoxNjg0NzQ3MDQ0fQ.dwB7RsBobt7I9Ab8-Tfheln6aSaKuhyoLZ8iAuwiJW4"}}
+{"method": "post", "url": "/phone/auth/token", "data": {"username": "3947324235", "password": "-R0_%58"}}
+{"method": "get", "url": "/phone/alarms", "data": {"access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJwaG9uZSszOTQ3MzI0MjM1IiwiZXhwIjoxNjg0NzQ3Njc3fQ.0hp5HtYFBeXiEqIPmoT1v04r4V81ES-IJcGa0oIjZ04"}}
+{"method": "post", "url": "/supervisor/message", "data": {"answer": null}}
+{"method": "get", "url": "/gmail/email_threads/category/inbox", "data": {"access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJnbWFpbCtjZS1tYWxkb25hZG9AZ21haWwuY29tIiwiZXhwIjoxNjg0NzQ3MDQ0fQ.dwB7RsBobt7I9Ab8-Tfheln6aSaKuhyoLZ8iAuwiJW4"}}
+{"method": "post", "url": "/phone/auth/token", "data": {"username": "3947324235", "password": "-R0_%58"}}
+{"method": "get", "url": "/phone/alarms", "data": {"access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJwaG9uZSszOTQ3MzI0MjM1IiwiZXhwIjoxNjg0NzQ3MTAzfQ.oU5zvxbKQgjManVDbtnrQy3pRBdNkdHKtt5JqgpIpTE"}}

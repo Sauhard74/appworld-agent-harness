@@ -1,0 +1,36 @@
+{"method": "get", "url": "/api_docs/app_descriptions", "data": {}}
+{"method": "get", "url": "/api_docs/api_descriptions", "data": {"app_name": "amazon"}}
+{"method": "get", "url": "/api_docs/api_descriptions", "data": {"app_name": "phone"}}
+{"method": "get", "url": "/supervisor/account_passwords", "data": {}}
+{"method": "get", "url": "/supervisor/account_passwords", "data": {}}
+{"method": "get", "url": "/api_docs/api_doc", "data": {"app_name": "phone", "api_name": "search_contacts"}}
+{"method": "get", "url": "/api_docs/api_descriptions", "data": {"app_name": "amazon"}}
+{"method": "get", "url": "/supervisor/account_passwords", "data": {}}
+{"method": "get", "url": "/supervisor/account_passwords", "data": {}}
+{"method": "get", "url": "/supervisor/account_passwords", "data": {}}
+{"method": "post", "url": "/phone/auth/token", "data": {"username": "brenda.webe@gmail.com", "password": "{(u%}@f"}}
+{"method": "get", "url": "/supervisor/account_passwords", "data": {}}
+{"method": "get", "url": "/api_docs/api_doc", "data": {"app_name": "phone", "api_name": "login"}}
+{"method": "get", "url": "/api_docs/api_doc", "data": {"app_name": "amazon", "api_name": "login"}}
+{"method": "post", "url": "/phone/auth/token", "data": {"username": "9312015677", "password": "N^ssqde"}}
+{"method": "post", "url": "/amazon/auth/token", "data": {"username": "brenda.webe@gmail.com", "password": "{(u%}@f"}}
+{"method": "get", "url": "/phone/contacts", "data": {"access_token": {"access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJwaG9uZSs5MzEyMDE1Njc3IiwiZXhwIjoxNjg0NDEyMDk4fQ.L8EoKqxFZX5_kevJhk5o5L5q5LsbB9QTRk0mxvoNCCI", "token_type": "Bearer"}, "query": "partner", "relationship": "partner"}}
+{"method": "post", "url": "/phone/auth/token", "data": {"username": "9312015677", "password": "N^ssqde"}}
+{"method": "post", "url": "/amazon/auth/token", "data": {"username": "brenda.webe@gmail.com", "password": "{(u%}@f"}}
+{"method": "get", "url": "/phone/contacts", "data": {"access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJwaG9uZSs5MzEyMDE1Njc3IiwiZXhwIjoxNjg0NDEyNzMxfQ.EK6VuNJfNjHbLO4STfVZ2eXb2yQGsJrmK7eMOFsFJq0", "query": "partner", "relationship": "partner"}}
+{"method": "post", "url": "/phone/auth/token", "data": {"username": "9312015677", "password": "N^ssqde"}}
+{"method": "post", "url": "/amazon/auth/token", "data": {"username": "brenda.webe@gmail.com", "password": "{(u%}@f"}}
+{"method": "get", "url": "/phone/contacts", "data": {"access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJwaG9uZSs5MzEyMDE1Njc3IiwiZXhwIjoxNjg0NDEyNjA0fQ.QfoW6mQiv6PRDfQ8Sp2UKwyPUyqRc6z-_l_YGCqil5g", "query": "partner", "relationship": "partner"}}
+{"method": "get", "url": "/amazon/wish_list", "data": {"access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJhbWF6b24rYnJlbmRhLndlYmVAZ21haWwuY29tIiwiZXhwIjoxNjg0NDEyNTE2fQ.UvIm92HUBEKr3aqPdfeZ6T2R27Kzx3MRHUtbS0Gar0M"}}
+{"method": "post", "url": "/phone/auth/token", "data": {"username": "9312015677", "password": "N^ssqde"}}
+{"method": "post", "url": "/amazon/auth/token", "data": {"username": "brenda.webe@gmail.com", "password": "{(u%}@f"}}
+{"method": "get", "url": "/phone/contacts", "data": {"access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJwaG9uZSs5MzEyMDE1Njc3IiwiZXhwIjoxNjg0NDEyNjg3fQ.7iL3q--SBrrObYoJ9I1k4jU4cuvHMf_snqM956riOTY", "query": "partner", "relationship": "partner"}}
+{"method": "get", "url": "/amazon/wish_list", "data": {"access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJhbWF6b24rYnJlbmRhLndlYmVAZ21haWwuY29tIiwiZXhwIjoxNjg0NDEyODM4fQ.zfh-urYffTB4Jk_tiYfAKwNu-Nw3G_4E_Gz_x03ocI4"}}
+{"method": "post", "url": "/phone/messages/text/7196131136", "data": {"access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJwaG9uZSs5MzEyMDE1Njc3IiwiZXhwIjoxNjg0NDEyNjg3fQ.7iL3q--SBrrObYoJ9I1k4jU4cuvHMf_snqM956riOTY", "message": "3M Scotch 8-in Cable Ties => $5\nSawyer Products Mini Water Filtration System => $25\nHamilton Beach 8-Cup Compact Food Processor => $30\nCraftsman 8-Inch Arc Joint Pliers => $9\nHusky Adjustable Height Work Table => $199\nAscend Trekking Poles => $30\nOXO Good Grips\u00ae Stainless Steel Soap Dispenser => $20"}}
+{"method": "post", "url": "/supervisor/message", "data": {"answer": null, "status": "success"}}
+{"method": "post", "url": "/phone/auth/token", "data": {"username": "9312015677", "password": "N^ssqde"}}
+{"method": "post", "url": "/amazon/auth/token", "data": {"username": "brenda.webe@gmail.com", "password": "{(u%}@f"}}
+{"method": "get", "url": "/phone/contacts", "data": {"access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJwaG9uZSs5MzEyMDE1Njc3IiwiZXhwIjoxNjg0NDEyMDI1fQ.wiOGU8wBYI1TcjsEm3tzYUwi0zEJpAogYAzxl0OyqxQ", "query": "partner", "relationship": "partner"}}
+{"method": "get", "url": "/amazon/wish_list", "data": {"access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJhbWF6b24rYnJlbmRhLndlYmVAZ21haWwuY29tIiwiZXhwIjoxNjg0NDEyODkxfQ.5FCv04jsEULG6XXwzzqmJhvRNra1fjShZnkIXuCiJGg"}}
+{"method": "get", "url": "/phone/messages/text", "data": {"access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJwaG9uZSs5MzEyMDE1Njc3IiwiZXhwIjoxNjg0NDEyMDI1fQ.wiOGU8wBYI1TcjsEm3tzYUwi0zEJpAogYAzxl0OyqxQ", "phone_number": "7196131136"}}
+{"method": "get", "url": "/phone/messages/text/window", "data": {"access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJwaG9uZSs5MzEyMDE1Njc3IiwiZXhwIjoxNjg0NDEyMDI1fQ.wiOGU8wBYI1TcjsEm3tzYUwi0zEJpAogYAzxl0OyqxQ", "phone_number": "7196131136"}}

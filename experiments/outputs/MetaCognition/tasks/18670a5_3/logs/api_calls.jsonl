@@ -1,0 +1,139 @@
+{"method": "get", "url": "/api_docs/api_descriptions", "data": {"app_name": "simple_note"}}
+{"method": "get", "url": "/api_docs/api_doc", "data": {"app_name": "simple_note", "api_name": "login"}}
+{"method": "get", "url": "/supervisor/account_passwords", "data": {}}
+{"method": "get", "url": "/supervisor/account_passwords", "data": {}}
+{"method": "get", "url": "/supervisor/account_passwords", "data": {}}
+{"method": "get", "url": "/supervisor/account_passwords", "data": {}}
+{"method": "get", "url": "/supervisor/account_passwords", "data": {}}
+{"method": "post", "url": "/simple_note/auth/token", "data": {"username": "dav.mart@gmail.com", "password": "2$=C=WK"}}
+{"method": "get", "url": "/simple_note/notes", "data": {"access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJzaW1wbGVfbm90ZStkYXYubWFydEBnbWFpbC5jb20iLCJleHAiOjE2ODQ2NzY0NTF9.rao_BrAODdPsX-zCdi9u5c2yWxdEsaoPm4GM7N14vew", "query": "meeting"}}
+{"method": "get", "url": "/simple_note/notes", "data": {"access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJzaW1wbGVfbm90ZStkYXYubWFydEBnbWFpbC5jb20iLCJleHAiOjE2ODQ2NzY0NTF9.rao_BrAODdPsX-zCdi9u5c2yWxdEsaoPm4GM7N14vew", "query": "meeting"}}
+{"method": "get", "url": "/simple_note/notes/3084", "data": {"access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJzaW1wbGVfbm90ZStkYXYubWFydEBnbWFpbC5jb20iLCJleHAiOjE2ODQ2NzY0NTF9.rao_BrAODdPsX-zCdi9u5c2yWxdEsaoPm4GM7N14vew"}}
+{"method": "get", "url": "/simple_note/notes", "data": {"access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJzaW1wbGVfbm90ZStkYXYubWFydEBnbWFpbC5jb20iLCJleHAiOjE2ODQ2NzY0NTF9.rao_BrAODdPsX-zCdi9u5c2yWxdEsaoPm4GM7N14vew", "query": "meeting"}}
+{"method": "get", "url": "/simple_note/notes/3084", "data": {"access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJzaW1wbGVfbm90ZStkYXYubWFydEBnbWFpbC5jb20iLCJleHAiOjE2ODQ2NzY0NTF9.rao_BrAODdPsX-zCdi9u5c2yWxdEsaoPm4GM7N14vew"}}
+{"method": "get", "url": "/simple_note/notes", "data": {"access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJzaW1wbGVfbm90ZStkYXYubWFydEBnbWFpbC5jb20iLCJleHAiOjE2ODQ2NzY0NTF9.rao_BrAODdPsX-zCdi9u5c2yWxdEsaoPm4GM7N14vew", "query": "meeting"}}
+{"method": "get", "url": "/simple_note/notes/3084", "data": {"access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJzaW1wbGVfbm90ZStkYXYubWFydEBnbWFpbC5jb20iLCJleHAiOjE2ODQ2NzY0NTF9.rao_BrAODdPsX-zCdi9u5c2yWxdEsaoPm4GM7N14vew"}}
+{"method": "get", "url": "/simple_note/notes", "data": {"access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJzaW1wbGVfbm90ZStkYXYubWFydEBnbWFpbC5jb20iLCJleHAiOjE2ODQ2NzY0NTF9.rao_BrAODdPsX-zCdi9u5c2yWxdEsaoPm4GM7N14vew", "query": "meeting"}}
+{"method": "get", "url": "/simple_note/notes/3084", "data": {"access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJzaW1wbGVfbm90ZStkYXYubWFydEBnbWFpbC5jb20iLCJleHAiOjE2ODQ2NzY0NTF9.rao_BrAODdPsX-zCdi9u5c2yWxdEsaoPm4GM7N14vew"}}
+{"method": "get", "url": "/supervisor/account_passwords", "data": {}}
+{"method": "post", "url": "/gmail/auth/token", "data": {"username": "dav.mart@gmail.com", "password": "Ubom@Nj"}}
+{"method": "get", "url": "/simple_note/notes", "data": {"access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJzaW1wbGVfbm90ZStkYXYubWFydEBnbWFpbC5jb20iLCJleHAiOjE2ODQ2NzY0NTF9.rao_BrAODdPsX-zCdi9u5c2yWxdEsaoPm4GM7N14vew", "query": "meeting"}}
+{"method": "get", "url": "/simple_note/notes/3084", "data": {"access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJzaW1wbGVfbm90ZStkYXYubWFydEBnbWFpbC5jb20iLCJleHAiOjE2ODQ2NzY0NTF9.rao_BrAODdPsX-zCdi9u5c2yWxdEsaoPm4GM7N14vew"}}
+{"method": "get", "url": "/supervisor/account_passwords", "data": {}}
+{"method": "post", "url": "/gmail/auth/token", "data": {"username": "dav.mart@gmail.com", "password": "Ubom@Nj"}}
+{"method": "get", "url": "/api_docs/api_descriptions", "data": {"app_name": "gmail"}}
+{"method": "get", "url": "/supervisor/account_passwords", "data": {}}
+{"method": "post", "url": "/gmail/auth/token", "data": {"username": "dav.mart@gmail.com", "password": "Ubom@Nj"}}
+{"method": "get", "url": "/api_docs/api_descriptions", "data": {"app_name": "gmail"}}
+{"method": "get", "url": "/supervisor/account_passwords", "data": {}}
+{"method": "post", "url": "/gmail/auth/token", "data": {"username": "dav.mart@gmail.com", "password": "Ubom@Nj"}}
+{"method": "get", "url": "/api_docs/api_descriptions", "data": {"app_name": "gmail"}}
+{"method": "get", "url": "/supervisor/account_passwords", "data": {}}
+{"method": "post", "url": "/gmail/auth/token", "data": {"username": "dav.mart@gmail.com", "password": "Ubom@Nj"}}
+{"method": "get", "url": "/api_docs/api_descriptions", "data": {"app_name": "gmail"}}
+{"method": "get", "url": "/supervisor/account_passwords", "data": {}}
+{"method": "post", "url": "/gmail/auth/token", "data": {"username": "dav.mart@gmail.com", "password": "Ubom@Nj"}}
+{"method": "get", "url": "/api_docs/api_descriptions", "data": {"app_name": "gmail"}}
+{"method": "get", "url": "/simple_note/notes", "data": {"access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJzaW1wbGVfbm90ZStkYXYubWFydEBnbWFpbC5jb20iLCJleHAiOjE2ODQ2NzY0NTF9.rao_BrAODdPsX-zCdi9u5c2yWxdEsaoPm4GM7N14vew", "query": "meeting"}}
+{"method": "get", "url": "/simple_note/notes/3084", "data": {"access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJzaW1wbGVfbm90ZStkYXYubWFydEBnbWFpbC5jb20iLCJleHAiOjE2ODQ2NzY0NTF9.rao_BrAODdPsX-zCdi9u5c2yWxdEsaoPm4GM7N14vew"}}
+{"method": "get", "url": "/supervisor/account_passwords", "data": {}}
+{"method": "post", "url": "/gmail/auth/token", "data": {"username": "dav.mart@gmail.com", "password": "Ubom@Nj"}}
+{"method": "post", "url": "/gmail/emails", "data": {"access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJnbWFpbCtkYXYubWFydEBnbWFpbC5jb20iLCJleHAiOjE2ODQ2NzcxOTF9.NFGTLumLzDTAd4fhcKL_PhAG-YrqRw8ELs0hYMXikvs", "to": ["Paul", "Denise", "Jeffery"], "subject": "Meeting 'Leadership Training Session' Starting Soon", "body": ""}}
+{"method": "get", "url": "/simple_note/notes", "data": {"access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJzaW1wbGVfbm90ZStkYXYubWFydEBnbWFpbC5jb20iLCJleHAiOjE2ODQ2NzY0NTF9.rao_BrAODdPsX-zCdi9u5c2yWxdEsaoPm4GM7N14vew", "query": "meeting"}}
+{"method": "get", "url": "/simple_note/notes/3084", "data": {"access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJzaW1wbGVfbm90ZStkYXYubWFydEBnbWFpbC5jb20iLCJleHAiOjE2ODQ2NzY0NTF9.rao_BrAODdPsX-zCdi9u5c2yWxdEsaoPm4GM7N14vew"}}
+{"method": "get", "url": "/supervisor/account_passwords", "data": {}}
+{"method": "post", "url": "/gmail/auth/token", "data": {"username": "dav.mart@gmail.com", "password": "Ubom@Nj"}}
+{"method": "post", "url": "/gmail/emails", "data": {"access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJnbWFpbCtkYXYubWFydEBnbWFpbC5jb20iLCJleHAiOjE2ODQ2NzYzNzh9.cApaz9-8iGJ2183qwjFxhoXUql6B3rdY-Pnm3qlUnfY", "email_addresses": ["paul@example.com", "denise@example.com", "jeffery@example.com"], "subject": "Meeting 'Leadership Training Session' Starting Soon", "body": ""}}
+{"method": "get", "url": "/simple_note/notes", "data": {"access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJzaW1wbGVfbm90ZStkYXYubWFydEBnbWFpbC5jb20iLCJleHAiOjE2ODQ2NzY0NTF9.rao_BrAODdPsX-zCdi9u5c2yWxdEsaoPm4GM7N14vew", "query": "meeting"}}
+{"method": "get", "url": "/simple_note/notes/3084", "data": {"access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJzaW1wbGVfbm90ZStkYXYubWFydEBnbWFpbC5jb20iLCJleHAiOjE2ODQ2NzY0NTF9.rao_BrAODdPsX-zCdi9u5c2yWxdEsaoPm4GM7N14vew"}}
+{"method": "get", "url": "/supervisor/account_passwords", "data": {}}
+{"method": "post", "url": "/gmail/auth/token", "data": {"username": "dav.mart@gmail.com", "password": "Ubom@Nj"}}
+{"method": "get", "url": "/gmail/users", "data": {"access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJnbWFpbCtkYXYubWFydEBnbWFpbC5jb20iLCJleHAiOjE2ODQ2NzcyNDR9.5OmKzZ65XKlWIioMYZem0scSyxx-V6cnuZCJKb58J6E", "query": "Paul"}}
+{"method": "get", "url": "/simple_note/notes", "data": {"access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJzaW1wbGVfbm90ZStkYXYubWFydEBnbWFpbC5jb20iLCJleHAiOjE2ODQ2NzY0NTF9.rao_BrAODdPsX-zCdi9u5c2yWxdEsaoPm4GM7N14vew", "query": "meeting"}}
+{"method": "get", "url": "/simple_note/notes/3084", "data": {"access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJzaW1wbGVfbm90ZStkYXYubWFydEBnbWFpbC5jb20iLCJleHAiOjE2ODQ2NzY0NTF9.rao_BrAODdPsX-zCdi9u5c2yWxdEsaoPm4GM7N14vew"}}
+{"method": "get", "url": "/supervisor/account_passwords", "data": {}}
+{"method": "post", "url": "/gmail/auth/token", "data": {"username": "dav.mart@gmail.com", "password": "Ubom@Nj"}}
+{"method": "get", "url": "/gmail/users", "data": {"access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJnbWFpbCtkYXYubWFydEBnbWFpbC5jb20iLCJleHAiOjE2ODQ2NzY0MDF9.x3fLQvq8513JmBsY7-0Aro9s2rhtll_Pe6KAfwwIWBQ", "query": "Paul"}}
+{"method": "get", "url": "/gmail/users", "data": {"access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJnbWFpbCtkYXYubWFydEBnbWFpbC5jb20iLCJleHAiOjE2ODQ2NzY0MDF9.x3fLQvq8513JmBsY7-0Aro9s2rhtll_Pe6KAfwwIWBQ", "query": "Denise"}}
+{"method": "get", "url": "/gmail/users", "data": {"access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJnbWFpbCtkYXYubWFydEBnbWFpbC5jb20iLCJleHAiOjE2ODQ2NzY0MDF9.x3fLQvq8513JmBsY7-0Aro9s2rhtll_Pe6KAfwwIWBQ", "query": "Jeffery"}}
+{"method": "post", "url": "/gmail/emails", "data": {"access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJnbWFpbCtkYXYubWFydEBnbWFpbC5jb20iLCJleHAiOjE2ODQ2NzY0MDF9.x3fLQvq8513JmBsY7-0Aro9s2rhtll_Pe6KAfwwIWBQ", "email_addresses": ["paul_mill@gmail.com", "deniseburch@gmail.com", "je.simpson@gmail.com"], "subject": "Meeting 'Leadership Training Session' Starting Soon", "body": ""}}
+{"method": "get", "url": "/supervisor/account_passwords", "data": {}}
+{"method": "post", "url": "/gmail/auth/token", "data": {"username": "dav.mart@gmail.com", "password": "Ubom@Nj"}}
+{"method": "get", "url": "/gmail/users", "data": {"access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJnbWFpbCtkYXYubWFydEBnbWFpbC5jb20iLCJleHAiOjE2ODQ2NzYzMTd9.EJ6b1rCKKkhVXXvUE0k9GGTAodEdWmlg5YvkE8U7K-8", "query": "Denise"}}
+{"method": "get", "url": "/gmail/users", "data": {"access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJnbWFpbCtkYXYubWFydEBnbWFpbC5jb20iLCJleHAiOjE2ODQ2NzYzMTd9.EJ6b1rCKKkhVXXvUE0k9GGTAodEdWmlg5YvkE8U7K-8", "query": "Matthew"}}
+{"method": "get", "url": "/gmail/users", "data": {"access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJnbWFpbCtkYXYubWFydEBnbWFpbC5jb20iLCJleHAiOjE2ODQ2NzYzMTd9.EJ6b1rCKKkhVXXvUE0k9GGTAodEdWmlg5YvkE8U7K-8", "query": "Paul"}}
+{"method": "post", "url": "/gmail/emails", "data": {"access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJnbWFpbCtkYXYubWFydEBnbWFpbC5jb20iLCJleHAiOjE2ODQ2NzYzMTd9.EJ6b1rCKKkhVXXvUE0k9GGTAodEdWmlg5YvkE8U7K-8", "email_addresses": ["deniseburch@gmail.com", "matthew.blac@gmail.com", "paul_mill@gmail.com"], "subject": "Meeting 'Project Kickoff Meeting' Starting Soon", "body": ""}}
+{"method": "get", "url": "/supervisor/account_passwords", "data": {}}
+{"method": "post", "url": "/gmail/auth/token", "data": {"username": "dav.mart@gmail.com", "password": "Ubom@Nj"}}
+{"method": "get", "url": "/gmail/users", "data": {"access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJnbWFpbCtkYXYubWFydEBnbWFpbC5jb20iLCJleHAiOjE2ODQ2NzcwODZ9.RuKrJbOt230Vk3qLIRvcA5gA28G8HhGBkUYApC1rya0", "query": "Jeffery"}}
+{"method": "get", "url": "/gmail/users", "data": {"access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJnbWFpbCtkYXYubWFydEBnbWFpbC5jb20iLCJleHAiOjE2ODQ2NzcwODZ9.RuKrJbOt230Vk3qLIRvcA5gA28G8HhGBkUYApC1rya0", "query": "Aaron"}}
+{"method": "post", "url": "/gmail/emails", "data": {"access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJnbWFpbCtkYXYubWFydEBnbWFpbC5jb20iLCJleHAiOjE2ODQ2NzcwODZ9.RuKrJbOt230Vk3qLIRvcA5gA28G8HhGBkUYApC1rya0", "email_addresses": ["je.simpson@gmail.com", "aa_burt@gmail.com"], "subject": "Meeting 'Customer Feedback and Improvement Session' Starting Soon", "body": ""}}
+{"method": "get", "url": "/supervisor/account_passwords", "data": {}}
+{"method": "post", "url": "/gmail/auth/token", "data": {"username": "dav.mart@gmail.com", "password": "Ubom@Nj"}}
+{"method": "get", "url": "/gmail/users", "data": {"access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJnbWFpbCtkYXYubWFydEBnbWFpbC5jb20iLCJleHAiOjE2ODQ2NzY2OTJ9.J0eCaMzzaN5L34irlrhp0kxt1cybNnhHzg2WrwQVh5A", "query": "Kiara"}}
+{"method": "get", "url": "/gmail/users", "data": {"access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJnbWFpbCtkYXYubWFydEBnbWFpbC5jb20iLCJleHAiOjE2ODQ2NzY2OTJ9.J0eCaMzzaN5L34irlrhp0kxt1cybNnhHzg2WrwQVh5A", "query": "Jeffery"}}
+{"method": "post", "url": "/gmail/emails", "data": {"access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJnbWFpbCtkYXYubWFydEBnbWFpbC5jb20iLCJleHAiOjE2ODQ2NzY2OTJ9.J0eCaMzzaN5L34irlrhp0kxt1cybNnhHzg2WrwQVh5A", "email_addresses": ["kia_bailey@gmail.com", "je.simpson@gmail.com"], "subject": "Meeting 'IT Security Briefing and Training' Starting Soon", "body": ""}}
+{"method": "get", "url": "/supervisor/account_passwords", "data": {}}
+{"method": "post", "url": "/gmail/auth/token", "data": {"username": "dav.mart@gmail.com", "password": "Ubom@Nj"}}
+{"method": "get", "url": "/gmail/users", "data": {"access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJnbWFpbCtkYXYubWFydEBnbWFpbC5jb20iLCJleHAiOjE2ODQ2NzYyNTF9.wTJ3SUu6DodoLa8xWwdCTq0hQJ8pjuwpcQ5VlfohcgE", "query": "Paul"}}
+{"method": "get", "url": "/gmail/users", "data": {"access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJnbWFpbCtkYXYubWFydEBnbWFpbC5jb20iLCJleHAiOjE2ODQ2NzYyNTF9.wTJ3SUu6DodoLa8xWwdCTq0hQJ8pjuwpcQ5VlfohcgE", "query": "Angelica"}}
+{"method": "post", "url": "/gmail/emails", "data": {"access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJnbWFpbCtkYXYubWFydEBnbWFpbC5jb20iLCJleHAiOjE2ODQ2NzYyNTF9.wTJ3SUu6DodoLa8xWwdCTq0hQJ8pjuwpcQ5VlfohcgE", "email_addresses": ["paul_mill@gmail.com", "angelica.wils@gmail.com"], "subject": "Meeting 'Sales Pipeline Analysis Meeting' Starting Soon", "body": ""}}
+{"method": "get", "url": "/simple_note/notes", "data": {"access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJzaW1wbGVfbm90ZStkYXYubWFydEBnbWFpbC5jb20iLCJleHAiOjE2ODQ2NzY0NTF9.rao_BrAODdPsX-zCdi9u5c2yWxdEsaoPm4GM7N14vew", "query": "meeting"}}
+{"method": "get", "url": "/simple_note/notes/3084", "data": {"access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJzaW1wbGVfbm90ZStkYXYubWFydEBnbWFpbC5jb20iLCJleHAiOjE2ODQ2NzY0NTF9.rao_BrAODdPsX-zCdi9u5c2yWxdEsaoPm4GM7N14vew"}}
+{"method": "get", "url": "/supervisor/account_passwords", "data": {}}
+{"method": "post", "url": "/gmail/auth/token", "data": {"username": "dav.mart@gmail.com", "password": "Ubom@Nj"}}
+{"method": "get", "url": "/gmail/users", "data": {"access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJnbWFpbCtkYXYubWFydEBnbWFpbC5jb20iLCJleHAiOjE2ODQ2NzY1NzF9.zPzcgYW_tG0K0b_1fxPfVZ5ZvqxepY9iG9hWyvFDaUA", "query": "Paul"}}
+{"method": "get", "url": "/gmail/users", "data": {"access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJnbWFpbCtkYXYubWFydEBnbWFpbC5jb20iLCJleHAiOjE2ODQ2NzY1NzF9.zPzcgYW_tG0K0b_1fxPfVZ5ZvqxepY9iG9hWyvFDaUA", "query": "Denise"}}
+{"method": "get", "url": "/gmail/users", "data": {"access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJnbWFpbCtkYXYubWFydEBnbWFpbC5jb20iLCJleHAiOjE2ODQ2NzY1NzF9.zPzcgYW_tG0K0b_1fxPfVZ5ZvqxepY9iG9hWyvFDaUA", "query": "Jeffery"}}
+{"method": "post", "url": "/gmail/emails", "data": {"access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJnbWFpbCtkYXYubWFydEBnbWFpbC5jb20iLCJleHAiOjE2ODQ2NzY1NzF9.zPzcgYW_tG0K0b_1fxPfVZ5ZvqxepY9iG9hWyvFDaUA", "email_addresses": ["paul_mill@gmail.com", "deniseburch@gmail.com", "je.simpson@gmail.com"], "subject": "Meeting 'Leadership Training Session' Starting Soon", "body": ""}}
+{"method": "get", "url": "/supervisor/account_passwords", "data": {}}
+{"method": "post", "url": "/gmail/auth/token", "data": {"username": "dav.mart@gmail.com", "password": "Ubom@Nj"}}
+{"method": "get", "url": "/gmail/users", "data": {"access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJnbWFpbCtkYXYubWFydEBnbWFpbC5jb20iLCJleHAiOjE2ODQ2NzY4Mzl9.8dZDkMkdmZjPFwQxGHTcKtkcmoJayGe3bsmD9Sqv_Tg", "query": "Denise"}}
+{"method": "get", "url": "/gmail/users", "data": {"access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJnbWFpbCtkYXYubWFydEBnbWFpbC5jb20iLCJleHAiOjE2ODQ2NzY4Mzl9.8dZDkMkdmZjPFwQxGHTcKtkcmoJayGe3bsmD9Sqv_Tg", "query": "Matthew"}}
+{"method": "get", "url": "/gmail/users", "data": {"access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJnbWFpbCtkYXYubWFydEBnbWFpbC5jb20iLCJleHAiOjE2ODQ2NzY4Mzl9.8dZDkMkdmZjPFwQxGHTcKtkcmoJayGe3bsmD9Sqv_Tg", "query": "Paul"}}
+{"method": "post", "url": "/gmail/emails", "data": {"access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJnbWFpbCtkYXYubWFydEBnbWFpbC5jb20iLCJleHAiOjE2ODQ2NzY4Mzl9.8dZDkMkdmZjPFwQxGHTcKtkcmoJayGe3bsmD9Sqv_Tg", "email_addresses": ["deniseburch@gmail.com", "matthew.blac@gmail.com", "paul_mill@gmail.com"], "subject": "Meeting 'Project Kickoff Meeting' Starting Soon", "body": ""}}
+{"method": "get", "url": "/supervisor/account_passwords", "data": {}}
+{"method": "post", "url": "/gmail/auth/token", "data": {"username": "dav.mart@gmail.com", "password": "Ubom@Nj"}}
+{"method": "get", "url": "/gmail/users", "data": {"access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJnbWFpbCtkYXYubWFydEBnbWFpbC5jb20iLCJleHAiOjE2ODQ2NzY2MjN9.JEg54LtQyMeU7uk-73rhNjjY1dZTGeUVwUeKvAAblMs", "query": "Jeffery"}}
+{"method": "get", "url": "/gmail/users", "data": {"access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJnbWFpbCtkYXYubWFydEBnbWFpbC5jb20iLCJleHAiOjE2ODQ2NzY2MjN9.JEg54LtQyMeU7uk-73rhNjjY1dZTGeUVwUeKvAAblMs", "query": "Aaron"}}
+{"method": "post", "url": "/gmail/emails", "data": {"access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJnbWFpbCtkYXYubWFydEBnbWFpbC5jb20iLCJleHAiOjE2ODQ2NzY2MjN9.JEg54LtQyMeU7uk-73rhNjjY1dZTGeUVwUeKvAAblMs", "email_addresses": ["je.simpson@gmail.com", "aa_burt@gmail.com"], "subject": "Meeting 'Customer Feedback and Improvement Session' Starting Soon", "body": ""}}
+{"method": "get", "url": "/supervisor/account_passwords", "data": {}}
+{"method": "post", "url": "/gmail/auth/token", "data": {"username": "dav.mart@gmail.com", "password": "Ubom@Nj"}}
+{"method": "get", "url": "/gmail/users", "data": {"access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJnbWFpbCtkYXYubWFydEBnbWFpbC5jb20iLCJleHAiOjE2ODQ2NzY3ODZ9.XptFQSwvQ4dbPo8NQBIQVFtijRQHGyrD9-_Be_NwJ_s", "query": "Kiara"}}
+{"method": "get", "url": "/gmail/users", "data": {"access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJnbWFpbCtkYXYubWFydEBnbWFpbC5jb20iLCJleHAiOjE2ODQ2NzY3ODZ9.XptFQSwvQ4dbPo8NQBIQVFtijRQHGyrD9-_Be_NwJ_s", "query": "Jeffery"}}
+{"method": "post", "url": "/gmail/emails", "data": {"access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJnbWFpbCtkYXYubWFydEBnbWFpbC5jb20iLCJleHAiOjE2ODQ2NzY3ODZ9.XptFQSwvQ4dbPo8NQBIQVFtijRQHGyrD9-_Be_NwJ_s", "email_addresses": ["kia_bailey@gmail.com", "je.simpson@gmail.com"], "subject": "Meeting 'IT Security Briefing and Training' Starting Soon", "body": ""}}
+{"method": "get", "url": "/supervisor/account_passwords", "data": {}}
+{"method": "post", "url": "/gmail/auth/token", "data": {"username": "dav.mart@gmail.com", "password": "Ubom@Nj"}}
+{"method": "get", "url": "/gmail/users", "data": {"access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJnbWFpbCtkYXYubWFydEBnbWFpbC5jb20iLCJleHAiOjE2ODQ2NzY1NzB9.sLAk5F4VOJKrb7nO35DccnCSd4vG8uHgR-7FUbV9Pg8", "query": "Paul"}}
+{"method": "get", "url": "/gmail/users", "data": {"access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJnbWFpbCtkYXYubWFydEBnbWFpbC5jb20iLCJleHAiOjE2ODQ2NzY1NzB9.sLAk5F4VOJKrb7nO35DccnCSd4vG8uHgR-7FUbV9Pg8", "query": "Angelica"}}
+{"method": "post", "url": "/gmail/emails", "data": {"access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJnbWFpbCtkYXYubWFydEBnbWFpbC5jb20iLCJleHAiOjE2ODQ2NzY1NzB9.sLAk5F4VOJKrb7nO35DccnCSd4vG8uHgR-7FUbV9Pg8", "email_addresses": ["paul_mill@gmail.com", "angelica.wils@gmail.com"], "subject": "Meeting 'Sales Pipeline Analysis Meeting' Starting Soon", "body": ""}}
+{"method": "post", "url": "/supervisor/message", "data": {"answer": null, "status": "success"}}
+{"method": "get", "url": "/simple_note/notes", "data": {"access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJzaW1wbGVfbm90ZStkYXYubWFydEBnbWFpbC5jb20iLCJleHAiOjE2ODQ2NzY0NTF9.rao_BrAODdPsX-zCdi9u5c2yWxdEsaoPm4GM7N14vew", "query": "meeting"}}
+{"method": "get", "url": "/simple_note/notes/3084", "data": {"access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJzaW1wbGVfbm90ZStkYXYubWFydEBnbWFpbC5jb20iLCJleHAiOjE2ODQ2NzY0NTF9.rao_BrAODdPsX-zCdi9u5c2yWxdEsaoPm4GM7N14vew"}}
+{"method": "get", "url": "/supervisor/account_passwords", "data": {}}
+{"method": "post", "url": "/gmail/auth/token", "data": {"username": "dav.mart@gmail.com", "password": "Ubom@Nj"}}
+{"method": "get", "url": "/gmail/users", "data": {"access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJnbWFpbCtkYXYubWFydEBnbWFpbC5jb20iLCJleHAiOjE2ODQ2NzY1MTh9.qcPsLS2QQkjWKaoN2Hj9eyualx-COZjSza_lnfPH3vE", "query": "Paul"}}
+{"method": "get", "url": "/gmail/users", "data": {"access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJnbWFpbCtkYXYubWFydEBnbWFpbC5jb20iLCJleHAiOjE2ODQ2NzY1MTh9.qcPsLS2QQkjWKaoN2Hj9eyualx-COZjSza_lnfPH3vE", "query": "Denise"}}
+{"method": "get", "url": "/gmail/users", "data": {"access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJnbWFpbCtkYXYubWFydEBnbWFpbC5jb20iLCJleHAiOjE2ODQ2NzY1MTh9.qcPsLS2QQkjWKaoN2Hj9eyualx-COZjSza_lnfPH3vE", "query": "Jeffery"}}
+{"method": "post", "url": "/gmail/emails", "data": {"access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJnbWFpbCtkYXYubWFydEBnbWFpbC5jb20iLCJleHAiOjE2ODQ2NzY1MTh9.qcPsLS2QQkjWKaoN2Hj9eyualx-COZjSza_lnfPH3vE", "email_addresses": ["paul_mill@gmail.com", "deniseburch@gmail.com", "je.simpson@gmail.com"], "subject": "Meeting 'Leadership Training Session' Starting Soon", "body": ""}}
+{"method": "get", "url": "/supervisor/account_passwords", "data": {}}
+{"method": "post", "url": "/gmail/auth/token", "data": {"username": "dav.mart@gmail.com", "password": "Ubom@Nj"}}
+{"method": "get", "url": "/gmail/users", "data": {"access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJnbWFpbCtkYXYubWFydEBnbWFpbC5jb20iLCJleHAiOjE2ODQ2NzY0NDF9.WRloPHjV2cJiyhOBuguUYvag2pAajCGsbDQabjwcA-Y", "query": "Denise"}}
+{"method": "get", "url": "/gmail/users", "data": {"access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJnbWFpbCtkYXYubWFydEBnbWFpbC5jb20iLCJleHAiOjE2ODQ2NzY0NDF9.WRloPHjV2cJiyhOBuguUYvag2pAajCGsbDQabjwcA-Y", "query": "Matthew"}}
+{"method": "get", "url": "/gmail/users", "data": {"access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJnbWFpbCtkYXYubWFydEBnbWFpbC5jb20iLCJleHAiOjE2ODQ2NzY0NDF9.WRloPHjV2cJiyhOBuguUYvag2pAajCGsbDQabjwcA-Y", "query": "Paul"}}
+{"method": "post", "url": "/gmail/emails", "data": {"access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJnbWFpbCtkYXYubWFydEBnbWFpbC5jb20iLCJleHAiOjE2ODQ2NzY0NDF9.WRloPHjV2cJiyhOBuguUYvag2pAajCGsbDQabjwcA-Y", "email_addresses": ["deniseburch@gmail.com", "matthew.blac@gmail.com", "paul_mill@gmail.com"], "subject": "Meeting 'Project Kickoff Meeting' Starting Soon", "body": ""}}
+{"method": "get", "url": "/supervisor/account_passwords", "data": {}}
+{"method": "post", "url": "/gmail/auth/token", "data": {"username": "dav.mart@gmail.com", "password": "Ubom@Nj"}}
+{"method": "get", "url": "/gmail/users", "data": {"access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJnbWFpbCtkYXYubWFydEBnbWFpbC5jb20iLCJleHAiOjE2ODQ2NzY1Mzl9.DAP3dleApBs5zc5Oe-CoHMbS76wV_1iq23ZbohWGkUI", "query": "Jeffery"}}
+{"method": "get", "url": "/gmail/users", "data": {"access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJnbWFpbCtkYXYubWFydEBnbWFpbC5jb20iLCJleHAiOjE2ODQ2NzY1Mzl9.DAP3dleApBs5zc5Oe-CoHMbS76wV_1iq23ZbohWGkUI", "query": "Aaron"}}
+{"method": "post", "url": "/gmail/emails", "data": {"access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJnbWFpbCtkYXYubWFydEBnbWFpbC5jb20iLCJleHAiOjE2ODQ2NzY1Mzl9.DAP3dleApBs5zc5Oe-CoHMbS76wV_1iq23ZbohWGkUI", "email_addresses": ["je.simpson@gmail.com", "aa_burt@gmail.com"], "subject": "Meeting 'Customer Feedback and Improvement Session' Starting Soon", "body": ""}}
+{"method": "get", "url": "/supervisor/account_passwords", "data": {}}
+{"method": "post", "url": "/gmail/auth/token", "data": {"username": "dav.mart@gmail.com", "password": "Ubom@Nj"}}
+{"method": "get", "url": "/gmail/users", "data": {"access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJnbWFpbCtkYXYubWFydEBnbWFpbC5jb20iLCJleHAiOjE2ODQ2NzY4NjN9.h3mw6Nxx_i8DhgBmYhQBBe1IQz22TobNLlCD77FoOgo", "query": "Kiara"}}
+{"method": "get", "url": "/gmail/users", "data": {"access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJnbWFpbCtkYXYubWFydEBnbWFpbC5jb20iLCJleHAiOjE2ODQ2NzY4NjN9.h3mw6Nxx_i8DhgBmYhQBBe1IQz22TobNLlCD77FoOgo", "query": "Jeffery"}}
+{"method": "post", "url": "/gmail/emails", "data": {"access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJnbWFpbCtkYXYubWFydEBnbWFpbC5jb20iLCJleHAiOjE2ODQ2NzY4NjN9.h3mw6Nxx_i8DhgBmYhQBBe1IQz22TobNLlCD77FoOgo", "email_addresses": ["kia_bailey@gmail.com", "je.simpson@gmail.com"], "subject": "Meeting 'IT Security Briefing and Training' Starting Soon", "body": ""}}
+{"method": "get", "url": "/supervisor/account_passwords", "data": {}}
+{"method": "post", "url": "/gmail/auth/token", "data": {"username": "dav.mart@gmail.com", "password": "Ubom@Nj"}}
+{"method": "get", "url": "/gmail/users", "data": {"access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJnbWFpbCtkYXYubWFydEBnbWFpbC5jb20iLCJleHAiOjE2ODQ2NzY5MTB9.xdLseR3Z0IcMNv2hFQdTewYQUstFLMDWaF5Ha3YCbeE", "query": "Paul"}}
+{"method": "get", "url": "/gmail/users", "data": {"access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJnbWFpbCtkYXYubWFydEBnbWFpbC5jb20iLCJleHAiOjE2ODQ2NzY5MTB9.xdLseR3Z0IcMNv2hFQdTewYQUstFLMDWaF5Ha3YCbeE", "query": "Angelica"}}
+{"method": "post", "url": "/gmail/emails", "data": {"access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJnbWFpbCtkYXYubWFydEBnbWFpbC5jb20iLCJleHAiOjE2ODQ2NzY5MTB9.xdLseR3Z0IcMNv2hFQdTewYQUstFLMDWaF5Ha3YCbeE", "email_addresses": ["paul_mill@gmail.com", "angelica.wils@gmail.com"], "subject": "Meeting 'Sales Pipeline Analysis Meeting' Starting Soon", "body": ""}}

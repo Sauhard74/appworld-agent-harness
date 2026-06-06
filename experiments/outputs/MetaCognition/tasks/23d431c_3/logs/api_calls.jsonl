@@ -1,0 +1,19 @@
+{"method": "get", "url": "/api_docs/app_descriptions", "data": {}}
+{"method": "get", "url": "/supervisor/account_passwords", "data": {}}
+{"method": "get", "url": "/api_docs/api_descriptions", "data": {"app_name": "amazon"}}
+{"method": "post", "url": "/amazon/auth/token", "data": {"username": "chelsea-burch@gmail.com", "password": "sQW-!iq"}}
+{"method": "get", "url": "/amazon/orders", "data": {"access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJhbWF6b24rY2hlbHNlYS1idXJjaEBnbWFpbC5jb20iLCJleHAiOjE2ODQ0MTIwOTh9.D8wbFzXKo8bk0bJ-9n4hwB6ZLGJ7dauFTOdHbGg44lU"}}
+{"method": "get", "url": "/amazon/orders", "data": {"access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJhbWF6b24rY2hlbHNlYS1idXJjaEBnbWFpbC5jb20iLCJleHAiOjE2ODQ0MTIwOTh9.D8wbFzXKo8bk0bJ-9n4hwB6ZLGJ7dauFTOdHbGg44lU"}}
+{"method": "get", "url": "/amazon/orders", "data": {"access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJhbWF6b24rY2hlbHNlYS1idXJjaEBnbWFpbC5jb20iLCJleHAiOjE2ODQ0MTIwOTh9.D8wbFzXKo8bk0bJ-9n4hwB6ZLGJ7dauFTOdHbGg44lU"}}
+{"method": "get", "url": "/amazon/products", "data": {"access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJhbWF6b24rY2hlbHNlYS1idXJjaEBnbWFpbC5jb20iLCJleHAiOjE2ODQ0MTIwOTh9.D8wbFzXKo8bk0bJ-9n4hwB6ZLGJ7dauFTOdHbGg44lU", "query": "watch", "max_price": 110}}
+{"method": "get", "url": "/amazon/orders", "data": {"access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJhbWF6b24rY2hlbHNlYS1idXJjaEBnbWFpbC5jb20iLCJleHAiOjE2ODQ0MTIwOTh9.D8wbFzXKo8bk0bJ-9n4hwB6ZLGJ7dauFTOdHbGg44lU"}}
+{"method": "get", "url": "/amazon/products", "data": {"access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJhbWF6b24rY2hlbHNlYS1idXJjaEBnbWFpbC5jb20iLCJleHAiOjE2ODQ0MTIwOTh9.D8wbFzXKo8bk0bJ-9n4hwB6ZLGJ7dauFTOdHbGg44lU", "query": "watch", "max_price": 110}}
+{"method": "get", "url": "/amazon/orders", "data": {"access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJhbWF6b24rY2hlbHNlYS1idXJjaEBnbWFpbC5jb20iLCJleHAiOjE2ODQ0MTIwOTh9.D8wbFzXKo8bk0bJ-9n4hwB6ZLGJ7dauFTOdHbGg44lU"}}
+{"method": "get", "url": "/amazon/products", "data": {"access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJhbWF6b24rY2hlbHNlYS1idXJjaEBnbWFpbC5jb20iLCJleHAiOjE2ODQ0MTIwOTh9.D8wbFzXKo8bk0bJ-9n4hwB6ZLGJ7dauFTOdHbGg44lU", "query": "watch", "max_price": 110}}
+{"method": "post", "url": "/amazon/orders", "data": {"access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJhbWF6b24rY2hlbHNlYS1idXJjaEBnbWFpbC5jb20iLCJleHAiOjE2ODQ0MTIwOTh9.D8wbFzXKo8bk0bJ-9n4hwB6ZLGJ7dauFTOdHbGg44lU", "product_id": 1406, "quantity": 1}}
+{"method": "get", "url": "/amazon/orders", "data": {"access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJhbWF6b24rY2hlbHNlYS1idXJjaEBnbWFpbC5jb20iLCJleHAiOjE2ODQ0MTIwOTh9.D8wbFzXKo8bk0bJ-9n4hwB6ZLGJ7dauFTOdHbGg44lU"}}
+{"method": "get", "url": "/amazon/products", "data": {"access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJhbWF6b24rY2hlbHNlYS1idXJjaEBnbWFpbC5jb20iLCJleHAiOjE2ODQ0MTIwOTh9.D8wbFzXKo8bk0bJ-9n4hwB6ZLGJ7dauFTOdHbGg44lU", "query": "watch", "max_price": 110}}
+{"method": "post", "url": "/amazon/orders", "data": {"access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJhbWF6b24rY2hlbHNlYS1idXJjaEBnbWFpbC5jb20iLCJleHAiOjE2ODQ0MTIwOTh9.D8wbFzXKo8bk0bJ-9n4hwB6ZLGJ7dauFTOdHbGg44lU", "product_id": 1406, "quantity": 1, "address_id": 69, "payment_card_id": 159}}
+{"method": "post", "url": "/supervisor/message", "data": {"answer": "Order ID: 3147", "status": "success"}}
+{"method": "get", "url": "/amazon/orders", "data": {"access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJhbWF6b24rY2hlbHNlYS1idXJjaEBnbWFpbC5jb20iLCJleHAiOjE2ODQ0MTIwOTh9.D8wbFzXKo8bk0bJ-9n4hwB6ZLGJ7dauFTOdHbGg44lU"}}
+{"method": "post", "url": "/supervisor/message", "data": {"answer": "Order ID: 3147", "status": "success"}}

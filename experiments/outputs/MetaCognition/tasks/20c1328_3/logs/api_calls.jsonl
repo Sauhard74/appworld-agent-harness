@@ -1,0 +1,114 @@
+{"method": "get", "url": "/api_docs/api_descriptions", "data": {"app_name": "phone"}}
+{"method": "get", "url": "/api_docs/api_descriptions", "data": {"app_name": "amazon"}}
+{"method": "get", "url": "/supervisor/account_passwords", "data": {}}
+{"method": "get", "url": "/supervisor/account_passwords", "data": {}}
+{"method": "get", "url": "/supervisor/account_passwords", "data": {}}
+{"method": "get", "url": "/supervisor/account_passwords", "data": {}}
+{"method": "get", "url": "/supervisor/account_passwords", "data": {}}
+{"method": "post", "url": "/phone/auth/token", "data": {"email": "chris.mcco@gmail.com", "password": null}}
+{"method": "get", "url": "/supervisor/account_passwords", "data": {}}
+{"method": "post", "url": "/phone/auth/token", "data": {"username": "chris.mcco@gmail.com", "password": null}}
+{"method": "get", "url": "/supervisor/account_passwords", "data": {}}
+{"method": "post", "url": "/phone/auth/token", "data": {"phone_number": "5584932120", "password": null}}
+{"method": "get", "url": "/supervisor/account_passwords", "data": {}}
+{"method": "post", "url": "/phone/auth/token", "data": {"username": "5584932120", "password": null}}
+{"method": "get", "url": "/supervisor/account_passwords", "data": {}}
+{"method": "post", "url": "/phone/auth/token", "data": {"username": "5584932120", "password": null}}
+{"method": "get", "url": "/supervisor/account_passwords", "data": {}}
+{"method": "get", "url": "/supervisor/account_passwords", "data": {}}
+{"method": "post", "url": "/phone/auth/token", "data": {"username": "5584932120", "password": "Bk}DNKG"}}
+{"method": "get", "url": "/phone/contacts", "data": {"access_token": {"access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJwaG9uZSs1NTg0OTMyMTIwIiwiZXhwIjoxNjg0NDEyMDk4fQ.xO3VLGReZoxtTMB2ss9rlVfhiIZ2iby2yLB2ScxsgGc", "token_type": "Bearer"}, "query": "roommate", "relationship": "roommate"}}
+{"method": "get", "url": "/supervisor/account_passwords", "data": {}}
+{"method": "post", "url": "/phone/auth/token", "data": {"username": "5584932120", "password": "Bk}DNKG"}}
+{"method": "get", "url": "/phone/contacts", "data": {"access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJwaG9uZSs1NTg0OTMyMTIwIiwiZXhwIjoxNjg0NDEyNzQxfQ.Rbu2G2UClFjUKMNnmoAGMW_QBA94fiXZInXRHBkD2uc", "query": "roommate", "relationship": "roommate"}}
+{"method": "post", "url": "/amazon/auth/token", "data": {"username": "chris.mcco@gmail.com", "password": "Wx^QHo8"}}
+{"method": "get", "url": "/amazon/products", "data": {"access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJhbWF6b24rY2hyaXMubWNjb0BnbWFpbC5jb20iLCJleHAiOjE2ODQ0MTI3MzF9.3XjxFPhfE1fm9nyXYzprkel5U5-kg1EXFZreuSJpcns", "query": "gaming console controller", "min_price": 70, "max_price": 170}}
+{"method": "get", "url": "/supervisor/account_passwords", "data": {}}
+{"method": "post", "url": "/phone/auth/token", "data": {"username": "5584932120", "password": "Bk}DNKG"}}
+{"method": "get", "url": "/phone/contacts", "data": {"access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJwaG9uZSs1NTg0OTMyMTIwIiwiZXhwIjoxNjg0NDEyMTU3fQ.NCuI1YsovUrEjAXw2Ije76SKlDuhdljlHwsw7M1uzvo", "query": "roommate", "relationship": "roommate"}}
+{"method": "post", "url": "/amazon/auth/token", "data": {"username": "chris.mcco@gmail.com", "password": "Wx^QHo8"}}
+{"method": "get", "url": "/amazon/products", "data": {"access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJhbWF6b24rY2hyaXMubWNjb0BnbWFpbC5jb20iLCJleHAiOjE2ODQ0MTI2MDR9.V4KnuWCznZLhF7xrxrjNJfJHfuH0UxMOxn9hrlqwzak", "query": "gaming console controller", "min_price": 70, "max_price": 170}}
+{"method": "post", "url": "/amazon/orders", "data": {"access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJhbWF6b24rY2hyaXMubWNjb0BnbWFpbC5jb20iLCJleHAiOjE2ODQ0MTI2MDR9.V4KnuWCznZLhF7xrxrjNJfJHfuH0UxMOxn9hrlqwzak", "product_id": 442, "quantity": 1, "shipping_address": {"name": "Chris Mccoy", "address": "123 Main St", "city": "Anytown", "state": "CA", "zip": "12345"}}}
+{"method": "get", "url": "/supervisor/account_passwords", "data": {}}
+{"method": "post", "url": "/phone/auth/token", "data": {"username": "5584932120", "password": "Bk}DNKG"}}
+{"method": "get", "url": "/phone/contacts", "data": {"access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJwaG9uZSs1NTg0OTMyMTIwIiwiZXhwIjoxNjg0NDEyNTE2fQ.LcWXu8eh6T2zZjXjVzXTAIX8JOSXZJWW4rb4AOAnwdI", "query": "roommate", "relationship": "roommate"}}
+{"method": "post", "url": "/amazon/auth/token", "data": {"username": "chris.mcco@gmail.com", "password": "Wx^QHo8"}}
+{"method": "get", "url": "/amazon/products", "data": {"access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJhbWF6b24rY2hyaXMubWNjb0BnbWFpbC5jb20iLCJleHAiOjE2ODQ0MTI2ODd9.Nvm2qs-k-UGeoXpuVh_6uppzl2IV_hiiBXGaNW0Bk4k", "query": "gaming console controller", "min_price": 70, "max_price": 170}}
+{"method": "get", "url": "/amazon/payment_cards", "data": {"access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJhbWF6b24rY2hyaXMubWNjb0BnbWFpbC5jb20iLCJleHAiOjE2ODQ0MTI2ODd9.Nvm2qs-k-UGeoXpuVh_6uppzl2IV_hiiBXGaNW0Bk4k"}}
+{"method": "get", "url": "/amazon/addresses", "data": {"access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJhbWF6b24rY2hyaXMubWNjb0BnbWFpbC5jb20iLCJleHAiOjE2ODQ0MTI2ODd9.Nvm2qs-k-UGeoXpuVh_6uppzl2IV_hiiBXGaNW0Bk4k"}}
+{"method": "post", "url": "/amazon/orders", "data": {"access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJhbWF6b24rY2hyaXMubWNjb0BnbWFpbC5jb20iLCJleHAiOjE2ODQ0MTI2ODd9.Nvm2qs-k-UGeoXpuVh_6uppzl2IV_hiiBXGaNW0Bk4k", "product_id": 442, "quantity": 1, "payment_card_id": 10, "address_id": 5}}
+{"method": "get", "url": "/supervisor/account_passwords", "data": {}}
+{"method": "post", "url": "/phone/auth/token", "data": {"username": "5584932120", "password": "Bk}DNKG"}}
+{"method": "get", "url": "/phone/contacts", "data": {"access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJwaG9uZSs1NTg0OTMyMTIwIiwiZXhwIjoxNjg0NDEyODM4fQ.N0-cD_RIdHWsx0sXpqHFELxI-N5-E0SbNcfPnAP2sL0", "query": "roommate", "relationship": "roommate"}}
+{"method": "post", "url": "/amazon/auth/token", "data": {"username": "chris.mcco@gmail.com", "password": "Wx^QHo8"}}
+{"method": "get", "url": "/amazon/products", "data": {"access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJhbWF6b24rY2hyaXMubWNjb0BnbWFpbC5jb20iLCJleHAiOjE2ODQ0MTIwMjV9.UVBQxlqCq47v4aL0nbd5O9rj44E3LM3UTixcxUy6keM", "query": "gaming console controller", "min_price": 70, "max_price": 170}}
+{"method": "get", "url": "/amazon/payment_cards", "data": {"access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJhbWF6b24rY2hyaXMubWNjb0BnbWFpbC5jb20iLCJleHAiOjE2ODQ0MTIwMjV9.UVBQxlqCq47v4aL0nbd5O9rj44E3LM3UTixcxUy6keM"}}
+{"method": "get", "url": "/amazon/addresses", "data": {"access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJhbWF6b24rY2hyaXMubWNjb0BnbWFpbC5jb20iLCJleHAiOjE2ODQ0MTIwMjV9.UVBQxlqCq47v4aL0nbd5O9rj44E3LM3UTixcxUy6keM"}}
+{"method": "post", "url": "/amazon/orders", "data": {"access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJhbWF6b24rY2hyaXMubWNjb0BnbWFpbC5jb20iLCJleHAiOjE2ODQ0MTIwMjV9.UVBQxlqCq47v4aL0nbd5O9rj44E3LM3UTixcxUy6keM", "product_id": 442, "quantity": 1, "payment_card_id": 10, "address_id": 5}}
+{"method": "get", "url": "/supervisor/account_passwords", "data": {}}
+{"method": "post", "url": "/phone/auth/token", "data": {"username": "5584932120", "password": "Bk}DNKG"}}
+{"method": "get", "url": "/phone/contacts", "data": {"access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJwaG9uZSs1NTg0OTMyMTIwIiwiZXhwIjoxNjg0NDEyODkxfQ.lIFwjVy5-Z41XlmQmyKfQ_oBl1FnV4atvjZb60tLwVE", "query": "roommate", "relationship": "roommate"}}
+{"method": "post", "url": "/amazon/auth/token", "data": {"username": "chris.mcco@gmail.com", "password": "Wx^QHo8"}}
+{"method": "get", "url": "/amazon/products", "data": {"access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJhbWF6b24rY2hyaXMubWNjb0BnbWFpbC5jb20iLCJleHAiOjE2ODQ0MTIwNDh9.qhMT3ONhegw6APrbsrWmf4mDuG7tOH4rP6jh718yAiI", "query": "gaming console controller", "min_price": 70, "max_price": 170}}
+{"method": "get", "url": "/amazon/payment_cards", "data": {"access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJhbWF6b24rY2hyaXMubWNjb0BnbWFpbC5jb20iLCJleHAiOjE2ODQ0MTIwNDh9.qhMT3ONhegw6APrbsrWmf4mDuG7tOH4rP6jh718yAiI"}}
+{"method": "get", "url": "/amazon/addresses", "data": {"access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJhbWF6b24rY2hyaXMubWNjb0BnbWFpbC5jb20iLCJleHAiOjE2ODQ0MTIwNDh9.qhMT3ONhegw6APrbsrWmf4mDuG7tOH4rP6jh718yAiI"}}
+{"method": "post", "url": "/amazon/orders", "data": {"access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJhbWF6b24rY2hyaXMubWNjb0BnbWFpbC5jb20iLCJleHAiOjE2ODQ0MTIwNDh9.qhMT3ONhegw6APrbsrWmf4mDuG7tOH4rP6jh718yAiI", "product_id": 442, "quantity": 1, "payment_card_id": 10, "address_id": 5}}
+{"method": "get", "url": "/supervisor/account_passwords", "data": {}}
+{"method": "post", "url": "/phone/auth/token", "data": {"username": "5584932120", "password": "Bk}DNKG"}}
+{"method": "get", "url": "/phone/contacts", "data": {"access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJwaG9uZSs1NTg0OTMyMTIwIiwiZXhwIjoxNjg0NDExOTY0fQ.BepO3lRnA-1c9AeddaeP3Z6U3vasJBTMcmuX-vcIKTo", "query": "roommate", "relationship": "roommate"}}
+{"method": "post", "url": "/amazon/auth/token", "data": {"username": "chris.mcco@gmail.com", "password": "Wx^QHo8"}}
+{"method": "get", "url": "/amazon/products", "data": {"access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJhbWF6b24rY2hyaXMubWNjb0BnbWFpbC5jb20iLCJleHAiOjE2ODQ0MTI3MzN9.QBQ81pGjGzzC_p5OUQ34uRcNlYXl3NUhcSg6i7yzeI8", "query": "gaming console controller", "min_price": 70, "max_price": 170}}
+{"method": "get", "url": "/amazon/payment_cards", "data": {"access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJhbWF6b24rY2hyaXMubWNjb0BnbWFpbC5jb20iLCJleHAiOjE2ODQ0MTI3MzN9.QBQ81pGjGzzC_p5OUQ34uRcNlYXl3NUhcSg6i7yzeI8"}}
+{"method": "get", "url": "/amazon/addresses", "data": {"access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJhbWF6b24rY2hyaXMubWNjb0BnbWFpbC5jb20iLCJleHAiOjE2ODQ0MTI3MzN9.QBQ81pGjGzzC_p5OUQ34uRcNlYXl3NUhcSg6i7yzeI8"}}
+{"method": "post", "url": "/amazon/orders", "data": {"access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJhbWF6b24rY2hyaXMubWNjb0BnbWFpbC5jb20iLCJleHAiOjE2ODQ0MTI3MzN9.QBQ81pGjGzzC_p5OUQ34uRcNlYXl3NUhcSg6i7yzeI8", "product_id": 442, "quantity": 1, "payment_card_id": 10, "address_id": 5}}
+{"method": "get", "url": "/supervisor/account_passwords", "data": {}}
+{"method": "post", "url": "/phone/auth/token", "data": {"username": "5584932120", "password": "Bk}DNKG"}}
+{"method": "get", "url": "/phone/contacts", "data": {"access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJwaG9uZSs1NTg0OTMyMTIwIiwiZXhwIjoxNjg0NDEyMzM5fQ.0w37so-l2mWyp9XpZwTL2685jsGi9o33LJ5WyNU7ygY", "query": "roommate", "relationship": "roommate"}}
+{"method": "post", "url": "/amazon/auth/token", "data": {"username": "chris.mcco@gmail.com", "password": "Wx^QHo8"}}
+{"method": "get", "url": "/amazon/products", "data": {"access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJhbWF6b24rY2hyaXMubWNjb0BnbWFpbC5jb20iLCJleHAiOjE2ODQ0MTE4OTh9.ZK6XK6SzSz-zfOcsp11Hq6Z_3k-1eOnbRtB-hS5dy04", "query": "gaming console controller", "min_price": 70, "max_price": 170}}
+{"method": "get", "url": "/amazon/payment_cards", "data": {"access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJhbWF6b24rY2hyaXMubWNjb0BnbWFpbC5jb20iLCJleHAiOjE2ODQ0MTE4OTh9.ZK6XK6SzSz-zfOcsp11Hq6Z_3k-1eOnbRtB-hS5dy04"}}
+{"method": "get", "url": "/amazon/addresses", "data": {"access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJhbWF6b24rY2hyaXMubWNjb0BnbWFpbC5jb20iLCJleHAiOjE2ODQ0MTE4OTh9.ZK6XK6SzSz-zfOcsp11Hq6Z_3k-1eOnbRtB-hS5dy04"}}
+{"method": "post", "url": "/amazon/orders", "data": {"access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJhbWF6b24rY2hyaXMubWNjb0BnbWFpbC5jb20iLCJleHAiOjE2ODQ0MTE4OTh9.ZK6XK6SzSz-zfOcsp11Hq6Z_3k-1eOnbRtB-hS5dy04", "product_id": 442, "quantity": 1, "payment_card_id": 10, "address_id": 5}}
+{"method": "get", "url": "/supervisor/account_passwords", "data": {}}
+{"method": "post", "url": "/phone/auth/token", "data": {"username": "5584932120", "password": "Bk}DNKG"}}
+{"method": "get", "url": "/phone/contacts", "data": {"access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJwaG9uZSs1NTg0OTMyMTIwIiwiZXhwIjoxNjg0NDEyMjE4fQ.Q5MOMAHN8x4Ky3JwnFIqIs7ere3uJiYgB_A3zcYLHZQ", "query": "roommate", "relationship": "roommate"}}
+{"method": "post", "url": "/amazon/auth/token", "data": {"username": "chris.mcco@gmail.com", "password": "Wx^QHo8"}}
+{"method": "get", "url": "/amazon/products", "data": {"access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJhbWF6b24rY2hyaXMubWNjb0BnbWFpbC5jb20iLCJleHAiOjE2ODQ0MTI0ODZ9.5l_mPjGWH7OTLtv-Fi6z3tiXKRpzxuC0_V2F7flCrmg", "query": "gaming console controller", "min_price": 70, "max_price": 170}}
+{"method": "get", "url": "/amazon/payment_cards", "data": {"access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJhbWF6b24rY2hyaXMubWNjb0BnbWFpbC5jb20iLCJleHAiOjE2ODQ0MTI0ODZ9.5l_mPjGWH7OTLtv-Fi6z3tiXKRpzxuC0_V2F7flCrmg"}}
+{"method": "get", "url": "/amazon/addresses", "data": {"access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJhbWF6b24rY2hyaXMubWNjb0BnbWFpbC5jb20iLCJleHAiOjE2ODQ0MTI0ODZ9.5l_mPjGWH7OTLtv-Fi6z3tiXKRpzxuC0_V2F7flCrmg"}}
+{"method": "post", "url": "/amazon/orders", "data": {"access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJhbWF6b24rY2hyaXMubWNjb0BnbWFpbC5jb20iLCJleHAiOjE2ODQ0MTI0ODZ9.5l_mPjGWH7OTLtv-Fi6z3tiXKRpzxuC0_V2F7flCrmg", "product_id": 442, "quantity": 1, "payment_card_id": 10, "address_id": 5}}
+{"method": "post", "url": "/amazon/orders", "data": {"access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJhbWF6b24rY2hyaXMubWNjb0BnbWFpbC5jb20iLCJleHAiOjE2ODQ0MTI0ODZ9.5l_mPjGWH7OTLtv-Fi6z3tiXKRpzxuC0_V2F7flCrmg", "product_id": 442, "quantity": 1, "payment_card_id": 10, "address_id": 5}}
+{"method": "post", "url": "/amazon/orders", "data": {"access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJhbWF6b24rY2hyaXMubWNjb0BnbWFpbC5jb20iLCJleHAiOjE2ODQ0MTI0ODZ9.5l_mPjGWH7OTLtv-Fi6z3tiXKRpzxuC0_V2F7flCrmg", "product_id": 442, "quantity": 1, "payment_card_id": 10, "address_id": 5}}
+{"method": "get", "url": "/supervisor/account_passwords", "data": {}}
+{"method": "post", "url": "/phone/auth/token", "data": {"username": "5584932120", "password": "Bk}DNKG"}}
+{"method": "get", "url": "/phone/contacts", "data": {"access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJwaG9uZSs1NTg0OTMyMTIwIiwiZXhwIjoxNjg0NDEyMjcwfQ.K0QW4VPTSXodkfVmGMVRjFmaLr-MSyFdfgKfKmRNbac", "query": "roommate", "relationship": "roommate"}}
+{"method": "post", "url": "/amazon/auth/token", "data": {"username": "chris.mcco@gmail.com", "password": "Wx^QHo8"}}
+{"method": "get", "url": "/amazon/products", "data": {"access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJhbWF6b24rY2hyaXMubWNjb0BnbWFpbC5jb20iLCJleHAiOjE2ODQ0MTI0MzN9.kHLaixoYo7bu2HK6Antu7LDIcw2XkbC4woP76ttJ5Ro", "query": "gaming console controller", "min_price": 70, "max_price": 170}}
+{"method": "get", "url": "/amazon/payment_cards", "data": {"access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJhbWF6b24rY2hyaXMubWNjb0BnbWFpbC5jb20iLCJleHAiOjE2ODQ0MTI0MzN9.kHLaixoYo7bu2HK6Antu7LDIcw2XkbC4woP76ttJ5Ro"}}
+{"method": "get", "url": "/amazon/addresses", "data": {"access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJhbWF6b24rY2hyaXMubWNjb0BnbWFpbC5jb20iLCJleHAiOjE2ODQ0MTI0MzN9.kHLaixoYo7bu2HK6Antu7LDIcw2XkbC4woP76ttJ5Ro"}}
+{"method": "post", "url": "/amazon/orders", "data": {"access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJhbWF6b24rY2hyaXMubWNjb0BnbWFpbC5jb20iLCJleHAiOjE2ODQ0MTI0MzN9.kHLaixoYo7bu2HK6Antu7LDIcw2XkbC4woP76ttJ5Ro", "product_id": 442, "quantity": 1, "payment_card_id": 10, "address_id": 5}}
+{"method": "post", "url": "/amazon/orders", "data": {"access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJhbWF6b24rY2hyaXMubWNjb0BnbWFpbC5jb20iLCJleHAiOjE2ODQ0MTI0MzN9.kHLaixoYo7bu2HK6Antu7LDIcw2XkbC4woP76ttJ5Ro", "product_id": 442, "quantity": 1, "payment_card_id": 10, "address_id": 5}}
+{"method": "post", "url": "/amazon/orders", "data": {"access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJhbWF6b24rY2hyaXMubWNjb0BnbWFpbC5jb20iLCJleHAiOjE2ODQ0MTI0MzN9.kHLaixoYo7bu2HK6Antu7LDIcw2XkbC4woP76ttJ5Ro", "product_id": 442, "quantity": 1, "payment_card_id": 10, "address_id": 5}}
+{"method": "get", "url": "/supervisor/account_passwords", "data": {}}
+{"method": "post", "url": "/phone/auth/token", "data": {"username": "5584932120", "password": "Bk}DNKG"}}
+{"method": "get", "url": "/phone/contacts", "data": {"access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJwaG9uZSs1NTg0OTMyMTIwIiwiZXhwIjoxNjg0NDEyMjE3fQ.cA4vaFwfUlrtt4zSquv7-0KbWkpwlBiGFdY-aUno-wY", "query": "roommate", "relationship": "roommate"}}
+{"method": "post", "url": "/amazon/auth/token", "data": {"username": "chris.mcco@gmail.com", "password": "Wx^QHo8"}}
+{"method": "get", "url": "/amazon/products", "data": {"access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJhbWF6b24rY2hyaXMubWNjb0BnbWFpbC5jb20iLCJleHAiOjE2ODQ0MTIxNjV9.NZpPWPwd4lQC1dshrjNQITBFVKISe9JHVxyvLgRzRpw", "query": "gaming console controller", "min_price": 70, "max_price": 170}}
+{"method": "get", "url": "/amazon/payment_cards", "data": {"access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJhbWF6b24rY2hyaXMubWNjb0BnbWFpbC5jb20iLCJleHAiOjE2ODQ0MTIxNjV9.NZpPWPwd4lQC1dshrjNQITBFVKISe9JHVxyvLgRzRpw"}}
+{"method": "get", "url": "/amazon/addresses", "data": {"access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJhbWF6b24rY2hyaXMubWNjb0BnbWFpbC5jb20iLCJleHAiOjE2ODQ0MTIxNjV9.NZpPWPwd4lQC1dshrjNQITBFVKISe9JHVxyvLgRzRpw"}}
+{"method": "post", "url": "/amazon/orders", "data": {"access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJhbWF6b24rY2hyaXMubWNjb0BnbWFpbC5jb20iLCJleHAiOjE2ODQ0MTIxNjV9.NZpPWPwd4lQC1dshrjNQITBFVKISe9JHVxyvLgRzRpw", "product_id": 442, "quantity": 1, "payment_card_id": 10, "address_id": 5}}
+{"method": "post", "url": "/amazon/orders", "data": {"access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJhbWF6b24rY2hyaXMubWNjb0BnbWFpbC5jb20iLCJleHAiOjE2ODQ0MTIxNjV9.NZpPWPwd4lQC1dshrjNQITBFVKISe9JHVxyvLgRzRpw", "product_id": 442, "quantity": 1, "payment_card_id": 10, "address_id": 5}}
+{"method": "post", "url": "/amazon/orders", "data": {"access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJhbWF6b24rY2hyaXMubWNjb0BnbWFpbC5jb20iLCJleHAiOjE2ODQ0MTIxNjV9.NZpPWPwd4lQC1dshrjNQITBFVKISe9JHVxyvLgRzRpw", "product_id": 442, "quantity": 1, "payment_card_id": 10, "address_id": 5}}
+{"method": "get", "url": "/supervisor/account_passwords", "data": {}}
+{"method": "post", "url": "/phone/auth/token", "data": {"username": "5584932120", "password": "Bk}DNKG"}}
+{"method": "get", "url": "/phone/contacts", "data": {"access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJwaG9uZSs1NTg0OTMyMTIwIiwiZXhwIjoxNjg0NDEyMDg4fQ.1PL2BcP5vgraxajbW61aABZ9yynxGNx5MgeCtr6S-dE", "query": "roommate", "relationship": "roommate"}}
+{"method": "post", "url": "/amazon/auth/token", "data": {"username": "chris.mcco@gmail.com", "password": "Wx^QHo8"}}
+{"method": "get", "url": "/amazon/products", "data": {"access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJhbWF6b24rY2hyaXMubWNjb0BnbWFpbC5jb20iLCJleHAiOjE2ODQ0MTIxODZ9.GQ2UY_uoTIABJGzgIpe3OSKWLotUB0X4hZZ8Oif_lYM", "query": "gaming console controller", "min_price": 70, "max_price": 170}}
+{"method": "get", "url": "/amazon/payment_cards", "data": {"access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJhbWF6b24rY2hyaXMubWNjb0BnbWFpbC5jb20iLCJleHAiOjE2ODQ0MTIxODZ9.GQ2UY_uoTIABJGzgIpe3OSKWLotUB0X4hZZ8Oif_lYM"}}
+{"method": "get", "url": "/amazon/addresses", "data": {"access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJhbWF6b24rY2hyaXMubWNjb0BnbWFpbC5jb20iLCJleHAiOjE2ODQ0MTIxODZ9.GQ2UY_uoTIABJGzgIpe3OSKWLotUB0X4hZZ8Oif_lYM"}}
+{"method": "post", "url": "/amazon/orders", "data": {"access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJhbWF6b24rY2hyaXMubWNjb0BnbWFpbC5jb20iLCJleHAiOjE2ODQ0MTIxODZ9.GQ2UY_uoTIABJGzgIpe3OSKWLotUB0X4hZZ8Oif_lYM", "product_id": 442, "quantity": 1, "payment_card_id": 10, "address_id": 5}}
+{"method": "post", "url": "/supervisor/message", "data": {"answer": "Payment card has expired. Cannot place order."}}
+{"method": "post", "url": "/amazon/orders", "data": {"access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJhbWF6b24rY2hyaXMubWNjb0BnbWFpbC5jb20iLCJleHAiOjE2ODQ0MTIxODZ9.GQ2UY_uoTIABJGzgIpe3OSKWLotUB0X4hZZ8Oif_lYM", "product_id": 442, "quantity": 1, "payment_card_id": 10, "address_id": 5}}
+{"method": "post", "url": "/supervisor/message", "data": {"answer": "Payment card has expired. Cannot place order."}}
+{"method": "post", "url": "/amazon/orders", "data": {"access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJhbWF6b24rY2hyaXMubWNjb0BnbWFpbC5jb20iLCJleHAiOjE2ODQ0MTIxODZ9.GQ2UY_uoTIABJGzgIpe3OSKWLotUB0X4hZZ8Oif_lYM", "product_id": 442, "quantity": 1, "payment_card_id": 10, "address_id": 5}}
+{"method": "post", "url": "/supervisor/message", "data": {"answer": "Payment card has expired. Cannot place order."}}

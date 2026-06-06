@@ -1,0 +1,19 @@
+{"method": "get", "url": "/api_docs/app_descriptions", "data": {}}
+{"method": "get", "url": "/api_docs/api_descriptions", "data": {"app_name": "gmail"}}
+{"method": "get", "url": "/api_docs/api_doc", "data": {"app_name": "gmail", "api_name": "login"}}
+{"method": "get", "url": "/supervisor/account_passwords", "data": {}}
+{"method": "get", "url": "/supervisor/account_passwords", "data": {}}
+{"method": "get", "url": "/supervisor/account_passwords", "data": {}}
+{"method": "get", "url": "/supervisor/account_passwords", "data": {}}
+{"method": "get", "url": "/supervisor/account_passwords", "data": {}}
+{"method": "get", "url": "/supervisor/account_passwords", "data": {}}
+{"method": "get", "url": "/supervisor/account_passwords", "data": {}}
+{"method": "post", "url": "/gmail/auth/token", "data": {"username": "carbrown@gmail.com", "password": "#x}}5n5"}}
+{"method": "get", "url": "/gmail/email_threads/category/inbox", "data": {"access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJnbWFpbCtjYXJicm93bkBnbWFpbC5jb20iLCJleHAiOjE2ODk2ODI0OTh9.Z3ojsBN5_Q4H4baXgCxEaj6vNNHfr5_M_MlgdH1Saz8", "subject": "Cable Bill"}}
+{"method": "get", "url": "/gmail/email_threads/category/inbox", "data": {"access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJnbWFpbCtjYXJicm93bkBnbWFpbC5jb20iLCJleHAiOjE2ODk2ODI0OTh9.Z3ojsBN5_Q4H4baXgCxEaj6vNNHfr5_M_MlgdH1Saz8", "subject": "Cable Bill"}}
+{"method": "get", "url": "/gmail/emails/20869", "data": {"access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJnbWFpbCtjYXJicm93bkBnbWFpbC5jb20iLCJleHAiOjE2ODk2ODI0OTh9.Z3ojsBN5_Q4H4baXgCxEaj6vNNHfr5_M_MlgdH1Saz8"}}
+{"method": "get", "url": "/gmail/attachments/8485", "data": {"access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJnbWFpbCtjYXJicm93bkBnbWFpbC5jb20iLCJleHAiOjE2ODk2ODI0OTh9.Z3ojsBN5_Q4H4baXgCxEaj6vNNHfr5_M_MlgdH1Saz8", "email_id": 20869}}
+{"method": "get", "url": "/supervisor/account_passwords", "data": {}}
+{"method": "get", "url": "/supervisor/account_passwords", "data": {}}
+{"method": "post", "url": "/file_system/auth/token", "data": {"username": "carbrown@gmail.com", "password": "4k9jcny"}}
+{"method": "get", "url": "/gmail/attachments/8485", "data": {"access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJnbWFpbCtjYXJicm93bkBnbWFpbC5jb20iLCJleHAiOjE2ODk2ODI0OTh9.Z3ojsBN5_Q4H4baXgCxEaj6vNNHfr5_M_MlgdH1Saz8", "email_id": 20869, "file_system_access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJmaWxlX3N5c3RlbStjYXJicm93bkBnbWFpbC5jb20iLCJleHAiOjE2ODk2ODMxNDF9.I77zIul2i-i7EZQaylLdzu_UMX_WzYTmeS9g6DdnfSI"}}
