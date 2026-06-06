@@ -132,7 +132,7 @@ component diagrams and a layer-by-layer walkthrough.
 | Setting | Split | TGC | Honest caveat |
 |---|---|---|---|
 | Harness, prompt-discipline fix | `dev` | 79.0 → 100.0 | **Leakage-inflated — not a generalization signal.** Dev tasks come in near-identical sibling variants; seeding *dev* gold while evaluating *dev* lets a task retrieve its sibling's solution ≈ open-book. Both runs measured; only the prompt differs. See [methodology](docs/METHODOLOGY.md). |
-| Harness, leak-free (`SEED_SPLITS=train,dev`) | `test_normal` | *preliminary (partial run)* | **Not a final figure.** A run was *in progress* as proof at the time of writing (tracking ~85–90% over the first ~100/168 tasks); official number pending completion. No leakage (test instructions unseen); model = GPT-5.5, **not** the graded model. |
+| Harness, leak-free (`SEED_SPLITS=train,dev`) | `test_normal` (168) | **91.1 / 85.7** | Complete run, official `appworld evaluate`. No leakage (test instructions unseen). Model = **GPT-5.5 reference, not the graded model** — this is the harness *ceiling*, not a leaderboard claim. For calibration: best scaffold-only on the public leaderboard is 68.5, RL-trained SOTA 86.9. |
 
 **Leaderboard context** (AppWorld, GPT-4o unless noted) for calibration:
 
