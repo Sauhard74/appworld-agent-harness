@@ -19,10 +19,18 @@ def load_gold_demos(task_ids, data_dir="data"):
         demos.append(Demo(task_id=tid, instruction=instruction, body=body))
     return demos
 
-def build_seeded_store(seed_splits=("train", "dev"), data_dir="data", embed_fn=None):
-    """Load gold demos from the given splits into a LocalTrajectoryStore."""
+def build_seeded_store(seed_splits=("train", "dev"), data_dir="data", embed_fn=None, backend="local"):
+    """Load gold demos from the given splits into the chosen MemoryStore backend.
+
+    backend="local" -> LocalTrajectoryStore (cosine over embeddings)
+    backend="tex"   -> TexMemoryStore (Tex semantic retriever, bodies kept locally)
+    """
     from appworld import load_task_ids
-    store = LocalTrajectoryStore(embed_fn=embed_fn)
+    if backend == "tex":
+        from arena.memory_tex import TexMemoryStore
+        store = TexMemoryStore()
+    else:
+        store = LocalTrajectoryStore(embed_fn=embed_fn)
     all_demos = []
     for split in seed_splits:
         all_demos.extend(load_gold_demos(load_task_ids(split), data_dir=data_dir))

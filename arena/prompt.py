@@ -22,6 +22,13 @@ HOW THE WORLD WORKS:
 DISCIPLINE THAT WINS:
 - You may make MANY api calls in one code block — batch discovery, then act. Aim to
   finish well within the turn budget.
+- INSPECT before you trust. Never assume a field's name or a value's spelling. Before
+  filtering/aggregating on a field (e.g. genre, status, type), first print a sample
+  record and the DISTINCT values you'll filter on, and confirm they exist. A filter
+  that silently matches zero rows is the #1 cause of wrong/empty answers.
+- Do NOT compute the answer and call complete_task in the SAME code block. First
+  compute and print() your result plus the key intermediate counts; read that
+  observation; only THEN, in a later turn, call complete_task.
 - Mutate ONLY what the task requires. Stray writes to unrelated data cause failure.
   Before finishing, re-read what you changed and confirm it matches the request and
   that nothing extra was modified.
@@ -30,6 +37,10 @@ DISCIPLINE THAT WINS:
 FINISH:
 - When (and only when) the task is fully done and verified:
     apis.supervisor.complete_task(answer=<answer>)   # answer=None unless it's a question
+- For a QUESTION task the answer must be NON-EMPTY and correct — an empty string, []
+  or None almost always means your logic found nothing; go back and debug, do not
+  submit it. Match the requested output format EXACTLY (separators, spacing, order,
+  units) — e.g. "comma-separated" with no spaces is "a,b,c", not "a, b, c".
 """
 
 def _render_demo(d, i):

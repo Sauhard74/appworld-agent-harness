@@ -16,7 +16,7 @@ def main():
     if config.MAX_TASKS:
         task_ids = task_ids[: config.MAX_TASKS]
     print(f"Building demo store (seed=train+dev, backend={config.MEMORY_BACKEND})...")
-    store = build_seeded_store()  # local backend; Task 13 adds tex switch
+    store = build_seeded_store(backend=config.MEMORY_BACKEND)
     print(f"Running '{config.EXPERIMENT}' on {len(task_ids)} '{config.DATASET}' tasks with {config.MODEL}")
 
     completed = 0
