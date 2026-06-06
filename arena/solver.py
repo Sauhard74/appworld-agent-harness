@@ -1,7 +1,22 @@
 from arena import config
-from arena.utils import extract_code, truncate_obs, trim_messages, has_code_block
+from arena.utils import extract_code, truncate_obs, has_code_block
 from arena.prompt import SYSTEM_PROMPT, build_initial_messages
 from arena.llm import call_llm as _default_call_llm
+
+# Default observation-compactor: asks the graded LLM to condense one tool output
+# to 1-2 lines, preserving concrete facts. Tests inject a fake (no network).
+_SUMMARIZE_SYSTEM = "You compress tool outputs."
+_SUMMARIZE_INSTR = (
+    "Condense this tool output to 1-2 lines, preserving concrete facts "
+    "(ids, names, counts, errors). Do NOT add commentary:\n\n"
+)
+
+
+def _default_summarize(text: str) -> str:
+    return _default_call_llm(
+        [{"role": "user", "content": _SUMMARIZE_INSTR + text[:6000]}],
+        system=_SUMMARIZE_SYSTEM,
+    )
 
 _ERR_MARKERS = ("Traceback", "Error", "Exception")
 
@@ -36,8 +51,40 @@ def _looks_like_error(obs: str) -> bool:
     return any(m in obs for m in _ERR_MARKERS)
 
 
-def solve(env, demos, call_llm=None, max_turns=None, verify=None):
+def _compact(messages, summary_parts, folded_upto, summarize_fn):
+    """Build the message list to send under HISTORY_MODE == "summarize".
+
+    Never drops a turn. Folds OLD pairs (beyond the most-recent
+    MAX_HISTORY_TURNS) into a rolling summary: each assistant CODE is kept
+    VERBATIM; only the bulky user OBSERVATION is condensed via summarize_fn.
+    messages[0] (task+demos) and the recent pairs stay fully verbatim. Each
+    observation is summarized at most once (folded_upto advances). Returns
+    (messages_to_send, new_folded_upto).
+    """
+    total_pairs = (len(messages) - 1) // 2
+    target = max(0, total_pairs - config.MAX_HISTORY_TURNS)
+    while folded_upto < target:
+        a = messages[1 + 2 * folded_upto]   # assistant (code) -> keep verbatim
+        u = messages[2 + 2 * folded_upto]   # user (observation) -> summarize
+        summary_parts.append(
+            "[code]\n" + extract_code(a["content"]) +
+            "\n[result] " + summarize_fn(u["content"])
+        )
+        folded_upto += 1
+    messages_to_send = [messages[0]]
+    if summary_parts:
+        messages_to_send.append({
+            "role": "user",
+            "content": ("Summary of earlier turns (code kept verbatim, "
+                        "outputs condensed):\n" + "\n".join(summary_parts)),
+        })
+    messages_to_send += messages[1 + 2 * folded_upto:]
+    return messages_to_send, folded_upto
+
+
+def solve(env, demos, call_llm=None, max_turns=None, verify=None, summarize_fn=None):
     call_llm = call_llm or (lambda messages, system: _default_call_llm(messages, system=system))
+    summarize_fn = summarize_fn or _default_summarize
     max_turns = max_turns or config.MAX_TURNS
     if verify is None:
         verify = config.VERIFY
@@ -46,8 +93,14 @@ def solve(env, demos, call_llm=None, max_turns=None, verify=None):
     phase = "solve"
     verify_left = _VERIFY_TURNS
     prev_code = None
+    summary_parts = []   # rolling, folded-once summary entries for old pairs
+    folded_upto = 0      # number of old pairs already folded into summary_parts
     for turn in range(1, max_turns + 1):
-        messages_to_send = trim_messages(messages, config.MAX_HISTORY_TURNS)
+        if config.HISTORY_MODE == "summarize":
+            messages_to_send, folded_upto = _compact(
+                messages, summary_parts, folded_upto, summarize_fn)
+        else:
+            messages_to_send = messages
         reply = call_llm(messages_to_send, system=SYSTEM_PROMPT)
 
         # Weak-model guard: prose with no code block -> don't execute arbitrary

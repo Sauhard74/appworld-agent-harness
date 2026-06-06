@@ -31,6 +31,11 @@ MAX_TURNS  = int(os.environ.get("MAX_INTERACTIONS", "40"))
 # Cap how much history is RE-SENT each turn (turn-pairs after the initial msg).
 # Keeps token cost ~linear on long tasks; full trajectory is still kept internally.
 MAX_HISTORY_TURNS = int(os.environ.get("MAX_HISTORY_TURNS", "16"))
+# How to bound context. "summarize" (default): fold OLD observations into a
+# rolling summary while keeping messages[0] and every assistant CODE verbatim;
+# the most recent MAX_HISTORY_TURNS pairs stay fully verbatim. "full": no
+# compaction — re-send the entire trajectory each turn.
+HISTORY_MODE = os.environ.get("HISTORY_MODE", "summarize")
 VERIFY     = os.environ.get("VERIFY", "1") not in ("0", "false", "False", "")
 
 # --- Retrieval / memory ---
