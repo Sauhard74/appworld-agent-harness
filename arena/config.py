@@ -28,6 +28,7 @@ DATASET    = os.environ.get("APPWORLD_DATASET", "dev")
 EXPERIMENT = os.environ.get("APPWORLD_EXPERIMENT", "team_demo")
 MAX_TASKS  = int(os.environ.get("MAX_TASKS", "0"))          # 0 = all
 MAX_TURNS  = int(os.environ.get("MAX_INTERACTIONS", "40"))
+VERIFY     = os.environ.get("VERIFY", "1") not in ("0", "false", "False", "")
 
 # --- Retrieval / memory ---
 MEMORY_BACKEND = os.environ.get("MEMORY_BACKEND", "local")  # local | tex | hydra

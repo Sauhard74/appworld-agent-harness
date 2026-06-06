@@ -14,13 +14,13 @@ class FakeEnv:
 def test_solver_stops_when_done():
     env = FakeEnv(complete_after=1)
     llm = lambda messages, system: "```python\nprint(1)\n```"
-    res = solve(env, [], call_llm=llm, max_turns=5)
+    res = solve(env, [], call_llm=llm, max_turns=5, verify=False)
     assert res["completed"] is True and res["turns"] == 1
 
 def test_solver_respects_max_turns():
     env = FakeEnv(complete_after=99)
     llm = lambda messages, system: "```python\nprint(1)\n```"
-    res = solve(env, [], call_llm=llm, max_turns=3)
+    res = solve(env, [], call_llm=llm, max_turns=3, verify=False)
     assert res["completed"] is False and res["turns"] == 3
 
 def test_solver_adds_reflection_on_error():
@@ -33,5 +33,32 @@ def test_solver_adds_reflection_on_error():
     class ErrEnv(FakeEnv):
         def execute(self, code): self.n += 1; return "Traceback: ValueError"
         def done(self): return False
-    solve(ErrEnv(complete_after=99), [], call_llm=llm, max_turns=2)
+    solve(ErrEnv(complete_after=99), [], call_llm=llm, max_turns=2, verify=False)
     assert seen["reflect"] is True
+
+def test_verify_injects_check_and_accepts_on_confirmation():
+    # Completes on turn 1; verifier injects a check; agent confirms with DONE_VERIFIED.
+    env = FakeEnv(complete_after=1)
+    seen = {"verify_prompt": False}
+    def llm(messages, system):
+        if any("DONE_VERIFIED" in m["content"] for m in messages):
+            seen["verify_prompt"] = True
+            return "```python\nprint('DONE_VERIFIED')\n```"
+        return "```python\napis.supervisor.complete_task(answer='x')\n```"
+    res = solve(env, [], call_llm=llm, max_turns=10, verify=True)
+    assert seen["verify_prompt"] is True          # verifier turn happened
+    assert res["completed"] is True
+    assert res["turns"] == 2                       # solve turn + one verify turn
+
+def test_verify_lets_agent_fix_then_finish():
+    # Agent keeps "completing" but only confirms after a couple of verify turns.
+    env = FakeEnv(complete_after=1)
+    calls = {"n": 0}
+    def llm(messages, system):
+        in_verify = any("STOP — verify" in m["content"] for m in messages)
+        calls["n"] += 1
+        if in_verify and calls["n"] >= 4:
+            return "```python\nprint('DONE_VERIFIED')\n```"
+        return "```python\napis.supervisor.complete_task(answer='x')\n```"
+    res = solve(env, [], call_llm=llm, max_turns=10, verify=True)
+    assert res["completed"] is True
