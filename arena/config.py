@@ -25,6 +25,13 @@ K_DEMOS    = int(os.environ.get("K_DEMOS", "2"))
 DATA_DIR   = os.environ.get("DATA_DIR", "data")
 CACHE_DIR  = os.environ.get("CACHE_DIR", ".cache")
 
+# --- Tex memory backend ---
+TEX_API_KEY     = os.environ.get("TEX_API_KEY")
+TEX_BASE_URL    = os.environ.get("TEX_BASE_URL")
+TEX_ORG_ID      = os.environ.get("TEX_ORG_ID")
+TEX_USER_ID     = os.environ.get("TEX_USER_ID")
+TEX_SESSION_ID  = os.environ.get("TEX_SESSION_ID", "appworld-demos")
+
 # --- Observation handling ---
 OBS_HEAD = int(os.environ.get("OBS_HEAD", "2500"))
 OBS_TAIL = int(os.environ.get("OBS_TAIL", "1500"))
