@@ -9,6 +9,10 @@ def extract_code(text: str) -> str:
         return blocks[-1].strip()
     return text.strip()
 
+def has_code_block(text: str) -> bool:
+    """True if text contains a fenced ``` ... ``` block (python or bare)."""
+    return _FENCE.search(text or "") is not None
+
 def truncate_obs(obs: str, head: int, tail: int) -> str:
     """Keep head + tail chars; tail bias preserves tracebacks/final values."""
     obs = str(obs)

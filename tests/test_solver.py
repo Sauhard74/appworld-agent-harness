@@ -50,6 +50,28 @@ def test_verify_injects_check_and_accepts_on_confirmation():
     assert res["completed"] is True
     assert res["turns"] == 2                       # solve turn + one verify turn
 
+def test_no_code_block_skips_execution_and_nudges():
+    env = FakeEnv(complete_after=99)
+    seen = {"nudge": False}
+    def llm(messages, system):
+        if any("no python code block" in m["content"].lower() for m in messages):
+            seen["nudge"] = True
+        return "I think we should look at the docs first."  # prose, no fence
+    solve(env, [], call_llm=llm, max_turns=2, verify=False)
+    assert seen["nudge"] is True
+    assert env.calls == []  # env.execute never called for prose-only turns
+
+def test_repeated_identical_code_triggers_repeat_nudge():
+    env = FakeEnv(complete_after=99)
+    seen = {"repeat": False}
+    def llm(messages, system):
+        if any("identical code to last turn" in m["content"].lower() for m in messages):
+            seen["repeat"] = True
+        return "```python\nprint(1)\n```"  # same code every turn
+    solve(env, [], call_llm=llm, max_turns=3, verify=False)
+    assert seen["repeat"] is True
+    assert len(env.calls) >= 2  # still executes each turn
+
 def test_verify_lets_agent_fix_then_finish():
     # Agent keeps "completing" but only confirms after a couple of verify turns.
     env = FakeEnv(complete_after=1)

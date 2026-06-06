@@ -1,4 +1,4 @@
-from arena.utils import extract_code, truncate_obs, trim_messages
+from arena.utils import extract_code, truncate_obs, trim_messages, has_code_block
 
 def test_extract_code_fenced():
     txt = "thinking...\n```python\nprint(1)\n```\ntrailing"
@@ -51,6 +51,13 @@ def test_trim_messages_long_keeps_first_and_last_pairs():
     assert kept == _convo(20)[-10:]
     # structure: first + marker + 10 = 12 messages
     assert len(out) == 12
+
+def test_has_code_block_detects_fence():
+    assert has_code_block("blah\n```python\nx=1\n```") is True
+    assert has_code_block("```\nx=1\n```") is True
+
+def test_has_code_block_false_for_prose():
+    assert has_code_block("just talking, no fence here") is False
 
 def test_trim_messages_preserves_most_recent_user():
     msgs = _convo(20)
