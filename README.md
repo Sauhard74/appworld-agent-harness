@@ -88,8 +88,8 @@ component diagrams and a layer-by-layer walkthrough.
 
 | Setting | Split | TGC | Honest caveat |
 |---|---|---|---|
-| Harness, prompt-discipline fix | `dev` | 79.0 → ~100 | **Leakage-inflated.** Dev tasks come in near-identical sibling variants; seeding *dev* gold while evaluating *dev* lets a task retrieve its sibling's solution ≈ open-book. Does **not** generalize. See [methodology](docs/METHODOLOGY.md#anti-overfit). |
-| Harness, leak-free (`SEED_SPLITS=train`) | `test_normal` | ~85–90 | No leakage: train+dev gold seeded as demos, but **test instructions are unseen**. Run was in progress as proof; model = GPT-5.5 (not graded). |
+| Harness, prompt-discipline fix | `dev` | 79.0 → 100.0 | **Leakage-inflated — not a generalization signal.** Dev tasks come in near-identical sibling variants; seeding *dev* gold while evaluating *dev* lets a task retrieve its sibling's solution ≈ open-book. Both runs measured; only the prompt differs. See [methodology](docs/METHODOLOGY.md). |
+| Harness, leak-free (`SEED_SPLITS=train,dev`) | `test_normal` | *preliminary (partial run)* | **Not a final figure.** A run was *in progress* as proof at the time of writing (tracking ~85–90% over the first ~100/168 tasks); official number pending completion. No leakage (test instructions unseen); model = GPT-5.5, **not** the graded model. |
 
 **Leaderboard context** (AppWorld, GPT-4o unless noted) for calibration:
 
@@ -100,7 +100,10 @@ component diagrams and a layer-by-layer walkthrough.
 | RL-trained SOTA (requires model training) | 86.9 |
 
 The single biggest *scaffold* lever on the public leaderboard is demo retrieval
-(+~20 TGC: 48.8 → 68.5). This harness leans on it and adds a verifier + memory A/B on top.
+(+~20 TGC: 48.8 → 68.5, per the published leaderboard). This harness leans on that lever and
+adds a verifier plus a fair-A/B-ready pluggable-memory layer. *Caveat:* the verifier's and
+memory backends' per-feature impact has **not** yet been A/B-confirmed on the graded model —
+only the prompt-discipline change is measured (see [Limitations](#limitations--future-work)).
 
 ---
 
@@ -183,6 +186,11 @@ and the deterministic split logic are all covered. See `tests/`.
 
 - **Numbers are model-dependent and not on the final graded model.** GPT-5.5 reference runs
   demonstrate the scaffold; they are not a leaderboard claim against Gemini.
+- **Only the prompt-discipline change is measured; per-feature A/Bs are pending.** The
+  held-out protocol and tooling are in place, but the verifier and rolling-summary compaction
+  are justified against *observed* failure modes — their clean held-out A/B on the graded
+  model is still pending (the mandated Groq free tier's 100K-tokens/day cap blocked it). We
+  flag this rather than imply measured gains we don't have.
 - **The headline dev number is leakage-inflated** by sibling-variant tasks — we call this
   out explicitly rather than reporting it as generalization. The honest signal is the
   leak-free `test_normal` run.

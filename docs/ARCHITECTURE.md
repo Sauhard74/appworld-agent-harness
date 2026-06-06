@@ -159,8 +159,8 @@ be looked up. Two consequences:
 
 ### `demos.py` — the demo bank
 **What.** Loads the **147 gold solutions** (90 `train` + 57 `dev`) into the chosen backend.
-**Why.** Worked examples of *similar* tasks are the proven +~20 TGC lever; gold solutions are
-the highest-quality demos available.
+**Why.** Worked examples of *similar* tasks are the biggest scaffold lever on the public
+leaderboard (~+20 TGC there); gold solutions are the highest-quality demos available.
 **How.** `load_gold_demos` reads each task's `specs.json` (instruction) and
 `ground_truth/solution.py` (body), stripping the canary-string header. `build_seeded_store`
 constructs the backend named by `MEMORY_BACKEND` and `add_many`s the demos from

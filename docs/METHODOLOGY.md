@@ -75,8 +75,9 @@ the value at ~1% of the cost of a bespoke state store.
 
 ### Best-of-N / self-consistency
 **Rejected on cost.** N× sampling is the worst possible fit under hard rate limits — the
-mandated Groq free tier caps at **100,000 tokens per day**. A single disciplined trajectory
-plus a cheap verifier beats N expensive parallel guesses we can't afford to run.
+mandated Groq free tier caps at **100,000 tokens per day**. Under that budget a single
+disciplined trajectory plus a cheap verifier is the right trade-off versus N expensive
+parallel guesses we simply can't afford to run; we did not benchmark best-of-N.
 
 ### Storing the solution code in the external memory service
 **Rejected for fidelity.** A memory/RAG service may summarize, chunk, or truncate stored text;
@@ -106,9 +107,17 @@ unseen test instructions, which have no such sibling in the store.
   examples.
 - **Deterministic held-out slice** (`arena/splits.py`) — a stable, hash-chosen subset we
   **never** tune against. Our overfit early-warning.
-- **The rule:** every "smart" feature must improve **held-out** TGC or be reverted. No
-  per-task special-casing in code or prompt, ever. Knowledge is *retrieved/discovered*, not
-  memorized.
+- **The intended rule:** every "smart" feature must improve **held-out** TGC or be reverted.
+  No per-task special-casing in code or prompt, ever. Knowledge is *retrieved/discovered*,
+  not memorized.
+
+> **Honesty note on how far this was applied.** The protocol and tooling are in place, but
+> only the **prompt-discipline change** was actually measured this way (dev 79.0 → 100.0,
+> reported with its leakage caveat). The **verifier** and **rolling-summary compaction** are
+> justified against *observed* failure modes (e.g. the empty-answer submission we saw in a
+> smoke test) — their clean per-feature held-out A/B on the **graded** model is **pending**:
+> the mandated Groq free tier (100K tokens/day) exhausted before the comparison could run. We
+> state this rather than imply measured gains we don't have.
 
 ---
 
@@ -121,10 +130,12 @@ unseen test instructions, which have no such sibling in the store.
 - **Prompt-discipline fix: dev 79.0 → ~100.** A large jump — but **leakage-inflated** (dev
   gold seeded while evaluating dev; sibling variants make it open-book) **and** on a
   non-graded model. We report it transparently as *not* a generalization signal.
-- **Leak-free `test_normal` ≈ 85–90 TGC** (`SEED_SPLITS=train,dev`; test instructions unseen;
-  GPT-5.5; a run was in progress as proof). This is the honest signal — it sits between the
-  best scaffold-only leaderboard entry (**68.5**) and RL-trained SOTA (**86.9**), which is the
-  expected place for a strong scaffold on a strong base model.
+- **Leak-free `test_normal`: preliminary (partial run).** `SEED_SPLITS=train,dev`; test
+  instructions unseen; GPT-5.5 (not the graded model). At the time of writing a run was *in
+  progress* as proof, tracking ~85–90% TGC over the first ~100/168 tasks — **this is not a
+  final figure**; the official number is pending run completion. For calibration, a strong
+  scaffold on a strong base model is expected to land between the best scaffold-only
+  leaderboard entry (**68.5**) and the RL-trained SOTA (**86.9**).
 
 **Calibration table (leaderboard, GPT-4o unless noted):**
 
@@ -135,8 +146,9 @@ unseen test instructions, which have no such sibling in the store.
 | **ReAct + retrieved demos** (best scaffold-only) | **68.5** |
 | RL-trained SOTA (requires training) | 86.9 |
 
-**Bottom line.** The contribution is a model-agnostic, test-driven harness with a proven
-retrieval lever, a verifier matched to the strict evaluator, fair pluggable memory, and an
-evaluation protocol that refuses to fool itself. The score follows the model; the engineering
+**Bottom line.** The contribution is a model-agnostic, test-driven harness with a
+leaderboard-proven retrieval lever, a verifier matched to the strict evaluator, fair
+pluggable memory, and an evaluation protocol that refuses to fool itself. The score follows
+the model; the engineering
 is what transfers.
 </content>
